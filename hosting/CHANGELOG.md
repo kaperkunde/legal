@@ -1,6 +1,6 @@
 # Hosting Changelog
 
-All notable changes to Kaperkunde Hosting legal documents are listed here.
+All notable changes to plek.je legal documents are listed here.
 
 Documents are versioned independently using git tags:
 
@@ -11,6 +11,45 @@ Documents are versioned independently using git tags:
 | `hosting-subprocessors-{year}.{revision}` | [subprocessors.md](subprocessors.md) |
 
 Company-wide documents: [CHANGELOG.md](../CHANGELOG.md) (`privacy-`).
+
+### View a tagged version
+
+```bash
+git fetch --tags
+git show hosting-tos-2026.2:hosting/tos.md
+git show hosting-aup-2026.2:hosting/aup.md
+git show hosting-subprocessors-2026.2:hosting/subprocessors.md
+```
+
+On GitHub: `https://github.com/kaperkunde/legal/releases/tag/<tag-name>`
+
+When publishing a new version, commit the change, create the tag, push both, and add an entry below.
+
+---
+
+## [hosting-tos-2026.2] — 2026-06-15
+
+**Effective date:** 12 June 2026
+
+- Rebranded from Kaperkunde Hosting to plek.je trade name; added website and plek.je contact emails
+
+---
+
+## [hosting-aup-2026.2] — 2026-06-15
+
+**Effective date:** 12 June 2026
+
+- Rebranded to plek.je trade name; updated abuse contact email
+
+---
+
+## [hosting-subprocessors-2026.2] — 2026-06-15
+
+**Effective date:** 12 June 2026
+
+- Rebranded to plek.je trade name
+
+---
 
 ## [hosting-tos-2026.1] — 2026-06-12
 

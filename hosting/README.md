@@ -1,6 +1,6 @@
-# Kaperkunde Hosting — Legal
+# plek.je — Legal
 
-Legal documentation for **Kaperkunde Hosting** managed Ghost blog hosting.
+Legal documentation for **[plek.je](https://plek.je)** managed Ghost blog hosting, operated by Kaperkunde.
 
 **Effective date: 12 June 2026** · [Repository overview](../README.md)
 
@@ -13,7 +13,7 @@ Legal documentation for **Kaperkunde Hosting** managed Ghost blog hosting.
 | [Terms of Service](tos.md) | Master agreement: service scope, billing, liability, privacy roles, and Data Processing Terms (Appendix A) |
 | [Acceptable Use Policy](aup.md) | Permitted and prohibited use, email/member rules, enforcement |
 | [Subprocessor List](subprocessors.md) | GDPR subprocessor transparency for hosted-site processing (Hetzner Cloud, Let’s Encrypt); controller subprocessors in [Privacy Policy](../privacy.md#51-when-kaperkunde-is-controller) |
-| [Privacy Policy](../privacy.md) | Privacy for Kaperkunde websites, hosting accounts, and hosted-site processing |
+| [Privacy Policy](../privacy.md) | Privacy for Kaperkunde websites, plek.je hosting accounts, and hosted-site processing |
 
 The Agreement consists of the Terms of Service, Plan Details, [Privacy Policy](../privacy.md), [AUP](aup.md), Appendix A (DPA), and [Subprocessor List](subprocessors.md).
 
@@ -93,7 +93,7 @@ The Agreement consists of the Terms of Service, Plan Details, [Privacy Policy](.
 
 | Purpose | Email |
 |---------|-------|
-| Support | support@kaperkun.de |
-| Abuse | abuse@kaperkun.de |
+| Support | support@plek.je |
+| Abuse | abuse@plek.je |
 | Privacy / GDPR | privacy@kaperkun.de |
-| Legal | legal@kaperkun.de |
+| Legal | legal@plek.je |

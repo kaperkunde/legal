@@ -12,8 +12,8 @@ This repository is the source of truth for terms, privacy notices, and related p
 
 | Document | Description |
 |----------|-------------|
-| [Privacy Policy](privacy.md) | How Kaperkunde handles personal data on its websites, for hosting customers, and in its processor role for hosted sites |
-| [Hosting documentation](hosting/README.md) | Terms of Service, Acceptable Use Policy, and Subprocessor List for managed Ghost hosting |
+| [Privacy Policy](privacy.md) | How Kaperkunde handles personal data on its websites, for [plek.je](https://plek.je) hosting customers, and in its processor role for hosted sites |
+| [Hosting documentation](hosting/README.md) | Terms of Service, Acceptable Use Policy, and Subprocessor List for [plek.je](https://plek.je) managed Ghost hosting |
 
 ### Privacy Policy — table of contents
 

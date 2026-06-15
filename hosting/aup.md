@@ -1,17 +1,18 @@
-# Kaperkunde Hosting Acceptable Use Policy
+# plek.je Acceptable Use Policy
 
 **Effective date:** 12 June 2026  
-**Provider:** Kaperkunde, operating as **Kaperkunde Hosting**  
+**Provider:** Kaperkunde, operating as **[plek.je](https://plek.je)**  
+**Website:** [https://plek.je](https://plek.je)  
 **KVK number:** 42061326  
 **Address:** Prof. E.M. Meijerslaan 1, Amstelveen, The Netherlands  
-**Support:** support@kaperkun.de  
-**Abuse reports:** abuse@kaperkun.de  
+**Support:** support@plek.je  
+**Abuse reports:** abuse@plek.je  
 **Privacy/GDPR requests:** privacy@kaperkun.de  
-**Legal notices:** legal@kaperkun.de  
+**Legal notices:** legal@plek.je  
 
-This Acceptable Use Policy (“**AUP**”) forms part of the agreement between you and Kaperkunde Hosting. It is incorporated by reference in the [Terms of Service](tos.md).
+This Acceptable Use Policy (“**AUP**”) forms part of the agreement between you and plek.je. It is incorporated by reference in the [Terms of Service](tos.md).
 
-If this AUP conflicts with a custom written agreement between you and Kaperkunde Hosting, the custom agreement controls only where it clearly says so.
+If this AUP conflicts with a custom written agreement between you and plek.je, the custom agreement controls only where it clearly says so.
 
 ---
 
@@ -25,7 +26,7 @@ The Service is intended for standard website and blog hosting, including persona
 
 ## 2. Prohibited content and activity
 
-You may not use the Service for content or activity that is illegal, harmful, abusive, deceptive, or damaging to Kaperkunde Hosting, other customers, third parties, or infrastructure.
+You may not use the Service for content or activity that is illegal, harmful, abusive, deceptive, or damaging to plek.je, other customers, third parties, or infrastructure.
 
 Prohibited uses include:
 
@@ -51,7 +52,7 @@ Where the hosted platform supports newsletters or memberships:
 
 - You set up and maintain your own relationship with your email provider (such as Mailgun).
 - You must comply with your email provider’s terms, applicable anti-spam rules, ePrivacy requirements, unsubscribe rules, sender-identity rules, and email-marketing law.
-- Newsletter content and sending practices are governed by your agreement with your email provider, not by Kaperkunde Hosting.
+- Newsletter content and sending practices are governed by your agreement with your email provider, not by plek.je.
 - You must have lawful consent for all members and newsletter recipients, including members imported by CSV, API, or third-party integration.
 - You must maintain records demonstrating valid consent where required and provide them on reasonable request.
 - You must not import purchased, rented, or scraped email lists.
@@ -60,7 +61,7 @@ Where the hosted platform supports newsletters or memberships:
 
 ## 4. Uses requiring prior written approval
 
-The following may be allowed only with Kaperkunde Hosting’s prior written approval:
+The following may be allowed only with plek.je’s prior written approval:
 
 - High-traffic scraping, crawling, or automation
 - Political campaigning, election-related services, or political content likely to create legal, advertising, donation, targeting, or moderation obligations
@@ -81,6 +82,6 @@ These examples are illustrative only and do not change the rules above.
 
 ## 6. Enforcement
 
-Kaperkunde Hosting may investigate, throttle, suspend, restrict, remove content, disable functionality, or terminate service for AUP violations as described in the [Terms of Service](tos.md).
+plek.je may investigate, throttle, suspend, restrict, remove content, disable functionality, or terminate service for AUP violations as described in the [Terms of Service](tos.md).
 
-Reports of illegal content, abuse, or rights infringement should be sent to **abuse@kaperkun.de**.
+Reports of illegal content, abuse, or rights infringement should be sent to **abuse@plek.je**.

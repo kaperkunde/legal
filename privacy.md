@@ -9,7 +9,7 @@
 **Privacy/GDPR requests:** privacy@kaperkun.de  
 **Legal notices:** legal@kaperkun.de  
 
-This Privacy Policy explains how Kaperkunde handles personal data when you visit our websites (including [kaperkun.de](https://kaperkun.de), kaperkunde.com, kaperkunde.nl, and godutch.us), create an account, comment, subscribe, contact us, or use **Kaperkunde Hosting** managed hosting services.
+This Privacy Policy explains how Kaperkunde handles personal data when you visit our websites (including [kaperkun.de](https://kaperkun.de), kaperkunde.com, kaperkunde.nl, and godutch.us), create an account, comment, subscribe, contact us, or use **[plek.je](https://plek.je)** managed hosting services.
 
 For hosting customers, this Policy forms part of our agreement together with the [Terms of Service](hosting/tos.md), [Acceptable Use Policy](hosting/aup.md), and [Data Processing Terms](hosting/tos.md#appendix-a-data-processing-terms).
 
@@ -19,7 +19,7 @@ For hosting customers, this Policy forms part of our agreement together with the
 
 - We collect only what we need to run our websites, deliver content, manage accounts, bill hosting customers, provide support, and keep systems secure.
 - We do **not** sell personal data, use your data for third-party advertising profiles, or use customer or site content to train AI models.
-- If you use **Kaperkunde Hosting**, data your hosted website collects from visitors, members, or subscribers is normally **your** responsibility as site owner.
+- If you use **[plek.je](https://plek.je)**, data your hosted website collects from visitors, members, or subscribers is normally **your** responsibility as site owner.
 - We process hosted customer site data only to provide, secure, maintain, back up, restore, troubleshoot, and support the hosting service.
 - You have GDPR rights. Contact **privacy@kaperkun.de** to exercise them.
 
@@ -32,7 +32,7 @@ This Policy applies if you:
 - visit our websites, including kaperkun.de, kaperkunde.com, kaperkunde.nl, and godutch.us
 - create an account, leave a comment, subscribe to a newsletter, or become a member on a Kaperkunde website
 - contact us for support, sales, or other inquiries
-- sign up for or use **Kaperkunde Hosting**
+- sign up for or use **[plek.je](https://plek.je)**
 
 ---
 
@@ -52,7 +52,7 @@ When you interact with a Kaperkunde website, Kaperkunde is normally the **contro
 
 ### 2.2 Hosting customer account data
 
-When you sign up for **Kaperkunde Hosting**, pay us, or contact us about hosting, Kaperkunde is normally the **controller** of personal data such as:
+When you sign up for **[plek.je](https://plek.je)**, pay us, or contact us about hosting, Kaperkunde is normally the **controller** of personal data such as:
 
 - Name, email address, billing address, and company details
 - Account, authentication, and support communications
@@ -97,7 +97,7 @@ Kaperkunde does **not**:
 - Use personal data for AI or machine-learning training
 - Use personal data for third-party advertising or profiling
 
-For **Kaperkunde Hosting**, we also do not use hosted customer content for our own marketing, advertising profiles, resale, or AI training.
+For **[plek.je](https://plek.je)**, we also do not use hosted customer content for our own marketing, advertising profiles, resale, or AI training.
 
 ---
 
@@ -181,7 +181,7 @@ Our account and hosting services are directed to adults aged 18 or older. We do 
 
 If our public websites may be accessed by minors, we do not knowingly collect personal data from children without appropriate consent where required by law.
 
-If you use **Kaperkunde Hosting**, you are responsible for ensuring your hosted site complies with applicable rules if it may be accessed by minors.
+If you use **[plek.je](https://plek.je)**, you are responsible for ensuring your hosted site complies with applicable rules if it may be accessed by minors.
 
 ---
 

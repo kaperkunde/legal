@@ -14,7 +14,7 @@ Hosting-specific documents are listed in [hosting/CHANGELOG.md](hosting/CHANGELO
 
 ```bash
 git fetch --tags
-git show privacy-2026.1:privacy.md
+git show privacy-2026.2:privacy.md
 ```
 
 On GitHub: `https://github.com/kaperkunde/legal/releases/tag/<tag-name>`
@@ -28,3 +28,11 @@ When publishing a new version, commit the change, create the tag, push both, and
 **Effective date:** 12 June 2026
 
 - Initial Privacy Policy
+
+---
+
+## [privacy-2026.2] — 2026-06-15
+
+**Effective date:** 12 June 2026
+
+- Updated hosting service references to plek.je trade name and website
