@@ -1,6 +1,6 @@
 # plek.je Subprocessor List
 
-**Effective date:** 12 June 2026  
+**Effective date:** 18 June 2026  
 **Provider:** Kaperkunde, operating as **[plek.je](https://plek.je)**  
 **Website:** [https://plek.je](https://plek.je)  
 **KVK number:** 42061326  
@@ -22,13 +22,15 @@ Subprocessors Kaperkunde uses as a **controller** — including **Stripe** for h
 |---|---|---|
 | **Hetzner Cloud** | VPS hosting, infrastructure, storage, and backups for hosted sites | EU data centres where practical |
 | **Let’s Encrypt** | SSL/TLS certificate issuance for HTTPS on custom domains | Certificates are issued automatically; minimal personal data is involved |
+| **Mailgun (Sinch)** | Outbound transactional and newsletter email delivery for sites using the managed email option | EU region when available; applies only to sites using the Easy 10k managed email feature |
+| **Porkbun** | DNS record management for `*.plek.je` platform subdomains — customer-chosen subdomain names are transmitted to provision and update DNS records | US-based; subdomain names (e.g., `myblog.plek.je`) linked to a customer's account may constitute personal data under GDPR |
 
 ---
 
 ## What this list covers
 
 1. This list covers subprocessors used by plek.je to operate the managed hosting service and process hosted site data on your behalf.
-2. **Services you set up and maintain yourself** — such as Mailgun for email, Stripe for payments to your readers or members, third-party analytics, comment systems, or other integrations — are **not** covered by this list. Those are direct relationships between you and the provider, governed by that provider’s terms.
+2. **Services you set up and maintain yourself** — such as BYO Mailgun, Stripe for payments to your readers or members, third-party analytics, comment systems, or other integrations — are **not** covered by this list. Those are direct relationships between you and the provider, governed by that provider’s terms.
 3. plek.je does not sell hosted customer data, use it for advertising profiles, or use it to train AI models.
 
 ---

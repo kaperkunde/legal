@@ -23,6 +23,14 @@ When publishing a new version, commit the change, create the tag, push both, and
 
 ---
 
+## [privacy-2026.3] — 2026-06-18
+
+**Effective date:** 18 June 2026
+
+- Added Porkbun as a subprocessor for DNS management of the `plek.je` platform domain; noted that customer-chosen subdomain names may constitute personal data under GDPR
+
+---
+
 ## [privacy-2026.1] — 2026-06-12
 
 **Effective date:** 12 June 2026

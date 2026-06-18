@@ -59,6 +59,16 @@ When publishing a new version, commit the change, create the tag, push both, and
 
 ---
 
+## [hosting-subprocessors-2026.3] — 2026-06-18
+
+**Effective date:** 18 June 2026
+
+- Added Mailgun (Sinch) as a subprocessor for outbound email delivery for sites using the managed email (Easy 10k) option
+- Added Porkbun as a subprocessor for DNS record management for `*.plek.je` platform subdomains
+- Updated "services you set up yourself" note to reference BYO Mailgun instead of Mailgun generically
+
+---
+
 ## [hosting-subprocessors-2026.2] — 2026-06-15
 
 **Effective date:** 12 June 2026

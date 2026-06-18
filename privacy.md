@@ -1,6 +1,6 @@
 # Kaperkunde Privacy Policy
 
-**Effective date:** 12 June 2026  
+**Effective date:** 18 June 2026  
 **Controller:** Kaperkunde  
 **KVK number:** 42061326  
 **Address:** Prof. E.M. Meijerslaan 1, Amstelveen, The Netherlands  
@@ -112,6 +112,7 @@ These subprocessors help us operate Kaperkunde websites and hosting accounts:
 | Subprocessor | Purpose | Location / notes |
 |---|---|---|
 | **Stripe** | Payment processing for hosting subscriptions and other Kaperkunde services | May process data outside the EEA; appropriate safeguards such as Standard Contractual Clauses are used where required |
+| **Porkbun** | DNS management for the `plek.je` platform domain — customer-chosen subdomain names are transmitted when provisioning hosting accounts | US-based; subdomain names linked to a customer's account may constitute personal data under GDPR |
 
 We may update this list from time to time. Material changes will be communicated with reasonable notice where practical.
 
