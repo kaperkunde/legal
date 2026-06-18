@@ -50,9 +50,9 @@ Prohibited uses include:
 
 Where the hosted platform supports newsletters or memberships:
 
-- You set up and maintain your own relationship with your email provider (such as Mailgun).
-- You must comply with your email provider’s terms, applicable anti-spam rules, ePrivacy requirements, unsubscribe rules, sender-identity rules, and email-marketing law.
-- Newsletter content and sending practices are governed by your agreement with your email provider, not by plek.je.
+- If you use BYO Mailgun, you set up and maintain your own relationship with your email provider. If you use the managed email option, plek.je operates the sending infrastructure on your behalf — you remain responsible for how you use it.
+- You must comply with applicable anti-spam rules, ePrivacy requirements, unsubscribe rules, sender-identity rules, and email-marketing law regardless of which email option you use.
+- Newsletter content and sending practices are your responsibility. plek.je is not responsible for the content you send or its compliance with any third-party terms or laws.
 - You must have lawful consent for all members and newsletter recipients, including members imported by CSV, API, or third-party integration.
 - You must maintain records demonstrating valid consent where required and provide them on reasonable request.
 - You must not import purchased, rented, or scraped email lists.

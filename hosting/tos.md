@@ -179,9 +179,13 @@ plek.je may assist with domain and DNS setup. Domain loss, expiration, registrar
 
 ## 12. Email and Mailgun
 
-Ghost supports newsletters through email providers such as Mailgun. plek.je may help you configure that integration, but **you** set up, maintain, and contract directly with your email provider.
+Ghost supports newsletters through email providers such as Mailgun. Two options are available:
 
-You are responsible for your email provider account, fees, limits, reputation, sending practices, compliance, and account status. **Newsletter content, recipient lists, and sending practices are governed by your provider’s terms of service and policies between you and that provider.** plek.je is not a party to that relationship and is not responsible for your provider’s rules, enforcement actions, deliverability decisions, or the content of emails you send.
+**Managed email (Easy 10k):** plek.je provisions a dedicated sending domain on its Mailgun account on your behalf. A usage allowance applies; see the current plan details on the pricing page. When you use this option, Mailgun processes outbound email data as a subprocessor of plek.je — see the [Subprocessor List](subprocessors.md). plek.je may adjust the allowance, suspend the managed email service, or require you to switch to a BYO configuration with reasonable notice, except where immediate action is required to prevent abuse or harm to the Service.
+
+**BYO Mailgun:** You set up, maintain, and contract directly with Mailgun or another email provider. In this case, the provider is a direct relationship between you and that third party, not a plek.je subprocessor.
+
+In both cases, you are responsible for your sending practices, newsletter content, recipient lists, and compliance with applicable law and your email provider’s terms of service. plek.je is not responsible for deliverability, inbox placement, spam-filter results, or third-party enforcement actions.
 
 Email deliverability, inbox placement, spam-filter results, IP reputation, and third-party email availability are not guaranteed. Further email rules are in the [AUP](aup.md).
 

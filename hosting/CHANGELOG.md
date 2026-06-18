@@ -27,6 +27,22 @@ When publishing a new version, commit the change, create the tag, push both, and
 
 ---
 
+## [hosting-tos-2026.3] — 2026-06-18
+
+**Effective date:** 18 June 2026
+
+- Section 12: documented managed email (Easy 10k) option where plek.je provisions a dedicated Mailgun sending domain on your behalf; clarified BYO Mailgun as the self-managed alternative; narrowed plek.je's liability scope to exclude deliverability, inbox placement, and third-party enforcement actions for both options
+
+---
+
+## [hosting-aup-2026.3] — 2026-06-18
+
+**Effective date:** 18 June 2026
+
+- Updated email section to cover both managed email (Easy 10k) and BYO Mailgun options; clarified that anti-spam, consent, and compliance obligations apply regardless of which option is used; noted that newsletter content responsibility stays with the operator
+
+---
+
 ## [hosting-tos-2026.2] — 2026-06-15
 
 **Effective date:** 12 June 2026
