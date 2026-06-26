@@ -81,6 +81,7 @@ Kaperkunde processes hosted customer data **only** to provide, secure, maintain,
 | Billing and payment data | Invoicing, payment processing, tax and accounting | Contract; legal obligation |
 | Support messages | Respond to requests and resolve issues | Contract; legitimate interests |
 | Security and operational logs | Protect our services, detect abuse, troubleshoot | Legitimate interests; legal obligation |
+| Website analytics | Understand how our websites are used (page views, unique visitor counts based on a short-lived hashed IP, and approximate country derived from browser timezone). No raw IP addresses are stored; no cross-site tracking. Data is retained for a rolling period and used only for aggregate analysis. | Legitimate interests |
 | Service-related email | Account notices, billing, security alerts, important service changes | Contract; legitimate interests |
 | Optional marketing email | Product news or offers, if you have not opted out | Consent or legitimate interests, where permitted |
 

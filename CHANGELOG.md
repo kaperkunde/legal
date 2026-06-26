@@ -23,6 +23,14 @@ When publishing a new version, commit the change, create the tag, push both, and
 
 ---
 
+## [privacy-2026.4] — 2026-06-26
+
+**Effective date:** 26 June 2026
+
+- Added website analytics to the data processing table: page views, unique visitor counts based on a short-lived hashed IP, and approximate country derived from browser timezone. No raw IP addresses are stored; no cross-site tracking. Lawful basis: legitimate interests.
+
+---
+
 ## [privacy-2026.3] — 2026-06-18
 
 **Effective date:** 18 June 2026
