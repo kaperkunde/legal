@@ -1,6 +1,6 @@
 # Kaperkunde Legal
 
-Public legal documentation for [Kaperkunde](https://kaperkun.de) products and services.
+Public legal documentation for [Kaperkunde](https://kaperkunde.com) products and services.
 
 This repository is the source of truth for terms, privacy notices, and related policies. Documents are written in plain English, governed by Dutch law where stated, and updated with an effective date at the top of each file.
 

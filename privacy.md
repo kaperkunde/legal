@@ -9,7 +9,7 @@
 **Privacy/GDPR requests:** privacy@kaperkun.de  
 **Legal notices:** legal@kaperkun.de  
 
-This Privacy Policy explains how Kaperkunde handles personal data when you visit our websites (including [kaperkun.de](https://kaperkun.de), kaperkunde.com, kaperkunde.nl, and godutch.us), create an account, comment, subscribe, contact us, or use **[plek.je](https://plek.je)** managed hosting services.
+This Privacy Policy explains how Kaperkunde handles personal data when you visit our websites (including [kaperkunde.com](https://kaperkunde.com), kaperkunde.nl, and godutch.us), create an account, comment, subscribe, contact us, or use **[plek.je](https://plek.je)** managed hosting services.
 
 For hosting customers, this Policy forms part of our agreement together with the [Terms of Service](hosting/tos.md), [Acceptable Use Policy](hosting/aup.md), and [Data Processing Terms](hosting/tos.md#appendix-a-data-processing-terms).
 
@@ -29,7 +29,7 @@ For hosting customers, this Policy forms part of our agreement together with the
 
 This Policy applies if you:
 
-- visit our websites, including kaperkun.de, kaperkunde.com, kaperkunde.nl, and godutch.us
+- visit our websites, including kaperkunde.com, kaperkunde.nl, and godutch.us
 - create an account, leave a comment, subscribe to a newsletter, or become a member on a Kaperkunde website
 - contact us for support, sales, or other inquiries
 - sign up for or use **[plek.je](https://plek.je)**
