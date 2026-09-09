@@ -23,6 +23,14 @@ When publishing a new version, commit the change, create the tag, push both, and
 
 ---
 
+## [privacy-2026.5] — 2026-09-09
+
+**Effective date:** 9 September 2026
+
+- §6 International transfers: documented that plek.je hosting customers may select dedicated EU or US hosting infrastructure for each site; clarified that international-transfer safeguards apply when a customer selects US-based hosting, not only for subprocessor transfers
+
+---
+
 ## [privacy-2026.4] — 2026-06-26
 
 **Effective date:** 26 June 2026

@@ -2,7 +2,7 @@
 
 Legal documentation for **[plek.je](https://plek.je)** managed Ghost blog hosting, operated by Kaperkunde.
 
-**Effective date: 12 June 2026** · [Repository overview](../README.md)
+**Effective date: 9 September 2026** · [Repository overview](../README.md)
 
 ---
 

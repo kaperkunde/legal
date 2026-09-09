@@ -1,6 +1,6 @@
 # plek.je Subprocessor List
 
-**Effective date:** 18 June 2026  
+**Effective date:** 9 September 2026  
 **Provider:** Kaperkunde, operating as **[plek.je](https://plek.je)**  
 **Website:** [https://plek.je](https://plek.je)  
 **KVK number:** 42061326  
@@ -20,9 +20,9 @@ Subprocessors Kaperkunde uses as a **controller** — including **Stripe** for h
 
 | Subprocessor | Purpose | Location / notes |
 |---|---|---|
-| **Hetzner Cloud** | VPS hosting, infrastructure, storage, and backups for hosted sites | EU data centres where practical |
+| **Hetzner Cloud** | VPS hosting, infrastructure, storage, and backups for hosted sites | EU or US data centres, depending on the hosting region you select for your site |
 | **Let’s Encrypt** | SSL/TLS certificate issuance for HTTPS on custom domains | Certificates are issued automatically; minimal personal data is involved |
-| **Mailgun (Sinch)** | Outbound transactional and newsletter email delivery for sites using the managed email option | EU region when available; applies only to sites using the Easy 10k managed email feature |
+| **Mailgun (Sinch)** | Outbound transactional and newsletter email delivery for sites using the managed email option | EU or US region, matched to your site's hosting region where available; applies only to sites using the Easy 10k managed email feature |
 | **Porkbun** | DNS record management for `*.plek.je` platform subdomains — customer-chosen subdomain names are transmitted to provision and update DNS records | US-based; subdomain names (e.g., `myblog.plek.je`) linked to a customer's account may constitute personal data under GDPR |
 
 ---

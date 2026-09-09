@@ -1,6 +1,6 @@
 # Kaperkunde Privacy Policy
 
-**Effective date:** 18 June 2026  
+**Effective date:** 9 September 2026  
 **Controller:** Kaperkunde  
 **KVK number:** 42061326  
 **Address:** Prof. E.M. Meijerslaan 1, Amstelveen, The Netherlands  
@@ -129,7 +129,9 @@ If you enable additional third-party services inside your hosted site — such a
 
 ## 6. International transfers
 
-Kaperkunde prefers EU-based infrastructure where practical. If personal data is transferred outside the European Economic Area and safeguards are required, we use appropriate mechanisms such as adequacy decisions, Standard Contractual Clauses, or another lawful transfer tool.
+For **[plek.je](https://plek.je)** hosting customers, Kaperkunde offers a choice of dedicated hosting infrastructure in the European Union or the United States, selected by you for each hosted site. Data for your hosted site is processed on infrastructure in the region you select and is not moved to the other region without your instruction. Details are in the [Terms of Service](hosting/tos.md#a8-international-transfers).
+
+Kaperkunde otherwise prefers EU-based infrastructure where practical. If personal data is transferred outside the European Economic Area — including where a hosting customer selects US-based hosting, or where a subprocessor operates outside the EEA — and safeguards are required, we use appropriate mechanisms such as adequacy decisions, Standard Contractual Clauses, or another lawful transfer tool.
 
 ---
 

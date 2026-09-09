@@ -1,6 +1,6 @@
 # plek.je Terms of Service
 
-**Effective date:** 12 June 2026  
+**Effective date:** 9 September 2026  
 **Provider:** Kaperkunde, operating as **[plek.je](https://plek.je)**  
 **Website:** [https://plek.je](https://plek.je)  
 **KVK number:** 42061326  
@@ -59,6 +59,7 @@ plek.je may provide:
 
 - Managed website and blog hosting
 - Ghost hosting
+- A choice of dedicated hosting region — European Union or United States — selected by you for each hosted site
 - Domain and DNS assistance
 - Mailgun setup assistance
 - Backup and restore assistance
@@ -502,7 +503,9 @@ Services you set up and maintain yourself inside your hosted site — such as Ma
 
 ## A8. International transfers
 
-plek.je may use EU and non-EU subprocessors. Where personal data is transferred outside the European Economic Area and safeguards are required, plek.je will use appropriate safeguards such as adequacy decisions, Standard Contractual Clauses, or another lawful transfer mechanism.
+plek.je offers dedicated hosting infrastructure in the European Union and in the United States. Hosted personal data for your site is processed on infrastructure in the region you select for that site under §3, and is not moved to infrastructure in the other region without your instruction.
+
+plek.je may use EU and non-EU subprocessors regardless of your chosen hosting region — for example, for billing, DNS, or email delivery. Where personal data is transferred outside the European Economic Area — including where you select US-based hosting for your site, or where a subprocessor operates outside the EEA — and safeguards are required, plek.je will use appropriate safeguards such as adequacy decisions, Standard Contractual Clauses, or another lawful transfer mechanism.
 
 ## A9. Assistance
 

@@ -8,7 +8,7 @@ This repository is the source of truth for terms, privacy notices, and related p
 
 ## Current documents
 
-**Effective date: 12 June 2026**
+**Effective date: 9 September 2026**
 
 | Document | Description |
 |----------|-------------|

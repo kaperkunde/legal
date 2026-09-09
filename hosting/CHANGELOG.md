@@ -27,6 +27,23 @@ When publishing a new version, commit the change, create the tag, push both, and
 
 ---
 
+## [hosting-tos-2026.4] — 2026-09-09
+
+**Effective date:** 9 September 2026
+
+- §3 Services covered: added dedicated hosting region choice — European Union or United States, selected per site
+- §A8 International transfers: documented the EU/US dedicated hosting choice and clarified that transfer safeguards apply when a customer selects US-based hosting, in addition to subprocessor transfers
+
+---
+
+## [hosting-subprocessors-2026.4] — 2026-09-09
+
+**Effective date:** 9 September 2026
+
+- Updated Hetzner Cloud and Mailgun (Sinch) location notes to reflect EU or US data centres, matched to the hosting region selected for each site
+
+---
+
 ## [hosting-tos-2026.3] — 2026-06-18
 
 **Effective date:** 18 June 2026
