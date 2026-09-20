@@ -1,6 +1,6 @@
 # Kaperkunde Privacy Policy
 
-**Effective date:** 9 September 2026  
+**Effective date:** 20 September 2026  
 **Controller:** Kaperkunde  
 **KVK number:** 42061326  
 **Address:** Prof. E.M. Meijerslaan 1, Amstelveen, The Netherlands  
@@ -81,7 +81,7 @@ Kaperkunde processes hosted customer data **only** to provide, secure, maintain,
 | Billing and payment data | Invoicing, payment processing, tax and accounting | Contract; legal obligation |
 | Support messages | Respond to requests and resolve issues | Contract; legitimate interests |
 | Security and operational logs | Protect our services, detect abuse, troubleshoot | Legitimate interests; legal obligation |
-| Website analytics | Understand how our websites are used (page views, unique visitor counts based on a short-lived hashed IP, and approximate country derived from browser timezone). No raw IP addresses are stored; no cross-site tracking. Data is retained for a rolling period and used only for aggregate analysis. | Legitimate interests |
+| Website analytics | Understand how our websites are used (page views, unique visitor counts based on a hashed IP address that changes every day, and approximate country derived from the IP address at the time of the request). No raw IP addresses are stored; no analytics cookies; no cross-site tracking. Data is retained on a rolling basis (currently 14 months) and used only for aggregate analysis. | Legitimate interests |
 | Service-related email | Account notices, billing, security alerts, important service changes | Contract; legitimate interests |
 | Optional marketing email | Product news or offers, if you have not opted out | Consent or legitimate interests, where permitted |
 
@@ -147,7 +147,7 @@ No online service can guarantee absolute security. You remain responsible for se
 
 ### 8.1 Kaperkunde websites
 
-If our websites use cookies or similar technologies, we will describe them in a cookie notice on those sites and, where required, ask for consent before non-essential cookies are placed.
+Our websites use only cookies that are strictly necessary to provide what you asked for — for example, keeping you signed in to your account. We do not use analytics, advertising, or tracking cookies, so no cookie consent banner is needed. If that ever changes, we will describe the cookies in a notice on those sites and ask for consent where required before any non-essential cookie is placed.
 
 ### 8.2 Hosted customer websites
 

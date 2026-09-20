@@ -23,6 +23,15 @@ When publishing a new version, commit the change, create the tag, push both, and
 
 ---
 
+## [privacy-2026.6] — 2026-09-20
+
+**Effective date:** 20 September 2026
+
+- §3 Website analytics: the approximate country is derived from the visitor's IP address at the time of the request, not from the browser timezone — the timezone cookie that previously supplied it has been removed. Stated that the hashed IP changes every day, that no analytics cookies are used, and that the retention period is currently 14 months
+- §8.1 Cookies: replaced the conditional wording with what is actually the case — only strictly necessary cookies are used, no analytics or advertising cookies, and therefore no consent banner
+
+---
+
 ## [privacy-2026.5] — 2026-09-09
 
 **Effective date:** 9 September 2026
