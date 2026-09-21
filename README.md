@@ -8,12 +8,13 @@ This repository is the source of truth for terms, privacy notices, and related p
 
 ## Current documents
 
-**Effective date: 20 September 2026**
+**Effective date: 21 September 2026**
 
 | Document | Description |
 |----------|-------------|
 | [Privacy Policy](privacy.md) | How Kaperkunde handles personal data on its websites, for [plek.je](https://plek.je) hosting customers, and in its processor role for hosted sites |
 | [Hosting documentation](hosting/README.md) | Terms of Service, Acceptable Use Policy, and Subprocessor List for [plek.je](https://plek.je) managed Ghost hosting |
+| [Lore Spawner documentation](lorespawner/README.md) | Privacy Notice, Terms of Use, and Subprocessor List for the Lore Spawner collaborative storytelling app |
 
 ### Privacy Policy — table of contents
 
@@ -44,6 +45,39 @@ This repository is the source of truth for terms, privacy notices, and related p
 | Subprocessor List | [hosting/subprocessors.md](hosting/subprocessors.md) |
 
 Full section index: [hosting/README.md](hosting/README.md)
+
+### Lore Spawner documents
+
+| Document | Path |
+|----------|------|
+| Privacy Notice | [lorespawner/privacy.md](lorespawner/privacy.md) |
+| Terms of Use | [lorespawner/terms.md](lorespawner/terms.md) |
+| Subprocessor List | [lorespawner/subprocessors.md](lorespawner/subprocessors.md) |
+
+Full section index: [lorespawner/README.md](lorespawner/README.md)
+
+---
+
+## How this repository is laid out
+
+The root holds what is true of Kaperkunde as a whole: the [Privacy Policy](privacy.md), the
+company identity and the contact addresses below. Each product has a folder of its own holding
+only what is particular to it — what that product keeps, who it depends on, and its own terms.
+
+A product's notice adds detail to the company-wide policy. It never takes away a right the
+policy gives. Adding a product means copying the shape of an existing folder: a `README.md`
+index, the documents themselves, and a `CHANGELOG.md` with its own tag prefix.
+
+These principles hold across every Kaperkunde product, and are stated once in the Privacy Policy
+rather than repeated in each folder:
+
+- Nothing is sold, given away, rented, or handed to advertisers or AI training sets
+  ([§4](privacy.md#4-what-we-do-not-do))
+- Only strictly necessary cookies, so no consent banner is needed anywhere
+  ([§8.1](privacy.md#81-kaperkunde-websites-and-applications))
+- A full export of your own content and account data, from inside the product where it has one
+  ([§4.1](privacy.md#41-what-we-do-instead))
+- Sixteen is the minimum age ([§11](privacy.md#11-children))
 
 ---
 
