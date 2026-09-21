@@ -28,7 +28,7 @@ published rather than agreed to, and signing up is what accepts them.
 3. [Why we hold it](privacy.md#why-we-hold-it)
 4. [How long](privacy.md#how-long)
 5. [Who else ever sees it](privacy.md#who-else-ever-sees-it)
-6. [Connecting an AI](privacy.md#connecting-an-ai)
+6. [The AI, and what it is told](privacy.md#the-ai-and-what-it-is-told)
 7. [What you make is yours](privacy.md#what-you-make-is-yours)
 8. [Taking it with you, or taking it down](privacy.md#taking-it-with-you-or-taking-it-down)
 9. [Your rights, and who to complain to](privacy.md#your-rights-and-who-to-complain-to)
