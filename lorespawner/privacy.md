@@ -47,6 +47,13 @@ person reads it. That address is also where support requests go.
 - **Whether you are here.** A single timestamp of when you last did something in the app, so we
   can stay quiet rather than mail you about something you are watching happen. It is
   overwritten, not accumulated: there is no history of your visits.
+- **What you have said to the AI.** If this campfire has a language model and you talk to it
+  about one of your worlds, the conversation is kept so you can come back to it. Unlike an
+  event, it was never written to be read by anybody else, and nobody else can: it is yours and
+  the model's.
+- **What the AI has cost.** A line per call saying who it was for, which world it was about,
+  what kind of work it was, and how many tokens it took. It is a meter, so that a runaway agent
+  is visible and can be capped; it holds nothing of what was written.
 - **Ordinary server logs.** Requests to the site, with IP address and timestamp, kept briefly so
   we can fix things that break and stop people abusing the service.
 
@@ -86,6 +93,8 @@ signed up to be told.
 | Your account, and everything you have made | Until you delete it or ask us to |
 | Server logs | 30 days |
 | Notifications the app has written for you | As long as the account — they are the record of what we told you, and the list in the app is where you read it |
+| A conversation with the AI about a world | Until you delete the conversation or the world, or close your account |
+| The record of what the AI has cost | As long as the account. It is the meter the spending cap is read from, so it outlives the world it was spent on |
 | A device you turned notifications on in | Until you forget that device, or its push service tells us the browser is gone |
 | An invitation you sent | Until it is accepted, declined, or taken back |
 
@@ -117,16 +126,27 @@ we will, and we will tell you unless we are forbidden to.
 
 ---
 
-## Connecting an AI
+## The AI, and what it is told
 
-You can connect an AI assistant to your campfire. If you do, that app acts as you, within the
-limits you set when you allow it: it reads what you can read, and it writes only where you have
-ticked a box saying it may. The connection is a token held by that app, not a copy of your
-password, and you can take it back at any time from the AI page in your account.
+There are two different AIs here and they hold different things.
 
-What that app then does with what it reads is between you and whoever makes it — it is your
-assistant, not ours. Kaperkunde does not train anything on your worlds, and connecting an
-assistant does not change that.
+**The AI at the fire** is a language model this campfire can be pointed at, which can play or
+tell a character you have handed to it and can talk with you about a world. It is off unless
+the campfire has been given a model to use. When it runs, what it is sent is the part of the
+world it is acting in — the events, the places, the characters, and what you have said to it —
+and that goes to whoever serves that model. Where that is not a model Kaperkunde runs itself,
+that provider is a processor and is named in the
+[subprocessor list](subprocessors.md), which is the honest place to look before you turn it on.
+
+**An assistant you connect yourself** is the other: an outside app you allow over OAuth, which
+then acts as you within the limits you set when you allow it. It reads what you can read, and it
+writes only where you have ticked a box saying it may. The connection is a token held by that
+app, not a copy of your password, and you can take it back at any time from the AI page in your
+account. What that app does with what it reads is between you and whoever makes it — it is your
+assistant, not ours.
+
+Kaperkunde does not train anything on your worlds, your conversations or your writing, and
+neither AI changes that.
 
 ---
 

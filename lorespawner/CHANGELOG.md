@@ -38,6 +38,9 @@ submodule pointer bumped in the app before it reaches the site.
   of the account; device records until forgotten or reported gone by the push service
 - Defers to the company-wide [Privacy Policy](../privacy.md) for rights, the supervisory
   authority, transfers, security and the minimum age, rather than restating them
+- Names what the AI at the fire holds: the conversations a player has had with it about a world,
+  and the ledger of what each call cost. Separates that AI from an assistant a player connects
+  themselves over OAuth, since the two hold different things and reach different people
 
 ---
 
@@ -57,3 +60,6 @@ submodule pointer bumped in the app before it reaches the site.
 - Initial Lore Spawner Subprocessor List: Hetzner for the servers, and Google, Apple and Mozilla
   named as relays of ciphertext for browser push
 - Records that an AI assistant a player connects themselves is not a Kaperkunde subprocessor
+- Records the language model as a conditional subprocessor: off unless the campfire is given a
+  model, no additional processor where Kaperkunde serves it, and named here before any
+  third-party provider is turned on
