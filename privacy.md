@@ -1,6 +1,6 @@
 # Kaperkunde Privacy Policy
 
-**Effective date:** 21 September 2026  
+**Effective date:** 22 September 2026  
 **Controller:** Kaperkunde  
 **KVK number:** 42061326  
 **Address:** Prof. E.M. Meijerslaan 1, Amstelveen, The Netherlands  
@@ -100,6 +100,8 @@ Those notices add detail. They never take away a right this Policy gives you.
 | Website analytics | Understand how our websites are used (page views, unique visitor counts based on a hashed IP address that changes every day, and approximate country derived from the IP address at the time of the request). No raw IP addresses are stored; no analytics cookies; no cross-site tracking. Data is retained on a rolling basis (currently 14 months) and used only for aggregate analysis. | Legitimate interests |
 | Service-related email | Account notices, billing, security alerts, important service changes | Contract; legitimate interests |
 | Optional marketing email | Product news or offers, if you have not opted out | Consent or legitimate interests, where permitted |
+
+Approximate country for website analytics is looked up in GeoLite2 data created by MaxMind, available from [https://www.maxmind.com](https://www.maxmind.com). We keep a copy of that data on our own servers and do the lookup there, so visitor IP addresses are not sent to MaxMind.
 
 We keep data only as long as needed for these purposes, unless a longer period is required by law, security, accounting, or dispute handling.
 
