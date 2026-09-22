@@ -25,6 +25,16 @@ When publishing a new version, commit the change, create the tag, push both, and
 
 ---
 
+## [privacy-2026.8] — 2026-09-22
+
+**Effective date:** 22 September 2026
+
+- §3: credited MaxMind for the GeoLite2 data the approximate country in website analytics is
+  looked up in, as the GeoLite licence requires, and stated that the lookup runs against a copy
+  on our own servers, so visitor IP addresses are not sent to MaxMind
+
+---
+
 ## [privacy-2026.7] — 2026-09-21
 
 **Effective date:** 21 September 2026
