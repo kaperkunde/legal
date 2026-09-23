@@ -25,6 +25,16 @@ When publishing a new version, commit the change, create the tag, push both, and
 
 ---
 
+## [privacy-2026.9] — 2026-09-23
+
+**Effective date:** 23 September 2026
+
+- §5.3: apps you connect to your plek.je account, such as an AI assistant added as a Claude
+  connector, act on your hosted sites with the permissions you approve; that relationship is
+  between you and the app's provider, and we keep only your approval and the access keys
+
+---
+
 ## [privacy-2026.8] — 2026-09-22
 
 **Effective date:** 22 September 2026

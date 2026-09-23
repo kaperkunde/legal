@@ -1,6 +1,6 @@
 # Kaperkunde Privacy Policy
 
-**Effective date:** 22 September 2026  
+**Effective date:** 23 September 2026  
 **Controller:** Kaperkunde  
 **KVK number:** 42061326  
 **Address:** Prof. E.M. Meijerslaan 1, Amstelveen, The Netherlands  
@@ -149,6 +149,8 @@ When Kaperkunde acts as a **processor** for your hosted website, the current sub
 ### 5.3 Services you configure yourself
 
 If you enable additional third-party services inside your hosted site — such as Mailgun for email, Stripe for payments to your readers or members, or other integrations — those are direct relationships between you and the provider. They are your responsibility and are not covered by our subprocessor lists.
+
+The same applies to AI assistants and other apps you connect to your [plek.je](https://plek.je) account (for example by adding plek.je as a connector in Claude). A connected app can read and change your hosted sites' content, members and settings with the permissions you approve, acting inside each site as a staff user called "Plek.je assistant". What the app and its provider do with that data is governed by your agreement with them, not by us. We keep only what is needed to let the app in: a record of what you approved and the access keys. You can disconnect an app at any time from your account page, or remove its access to a single site in that site's settings.
 
 ---
 
