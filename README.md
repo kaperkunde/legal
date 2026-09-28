@@ -8,13 +8,14 @@ This repository is the source of truth for terms, privacy notices, and related p
 
 ## Current documents
 
-**Effective date: 23 September 2026**
+**Effective date: 28 September 2026**
 
 | Document | Description |
 |----------|-------------|
 | [Privacy Policy](privacy.md) | How Kaperkunde handles personal data on its websites, for [plek.je](https://plek.je) hosting customers, and in its processor role for hosted sites |
 | [Hosting documentation](hosting/README.md) | Terms of Service, Acceptable Use Policy, and Subprocessor List for [plek.je](https://plek.je) managed Ghost hosting |
 | [Lore Spawner documentation](lorespawner/README.md) | Privacy Notice, Terms of Use, and Subprocessor List for the Lore Spawner collaborative storytelling app |
+| [Study Guild documentation](studyguild/README.md) | Privacy Notice, Terms of Use, and Subprocessor List for the Study Guild shared flashcard community |
 
 ### Privacy Policy — table of contents
 
@@ -55,6 +56,16 @@ Full section index: [hosting/README.md](hosting/README.md)
 | Subprocessor List | [lorespawner/subprocessors.md](lorespawner/subprocessors.md) |
 
 Full section index: [lorespawner/README.md](lorespawner/README.md)
+
+### Study Guild documents
+
+| Document | Path |
+|----------|------|
+| Privacy Notice | [studyguild/privacy.md](studyguild/privacy.md) |
+| Terms of Use | [studyguild/terms.md](studyguild/terms.md) |
+| Subprocessor List | [studyguild/subprocessors.md](studyguild/subprocessors.md) |
+
+Full section index: [studyguild/README.md](studyguild/README.md)
 
 ---
 

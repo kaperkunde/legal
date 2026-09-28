@@ -1,6 +1,6 @@
 # Kaperkunde Privacy Policy
 
-**Effective date:** 23 September 2026  
+**Effective date:** 28 September 2026  
 **Controller:** Kaperkunde  
 **KVK number:** 42061326  
 **Address:** Prof. E.M. Meijerslaan 1, Amstelveen, The Netherlands  
@@ -9,7 +9,7 @@
 **Privacy/GDPR requests:** privacy@kaperkun.de  
 **Legal notices:** legal@kaperkun.de  
 
-This Privacy Policy explains how Kaperkunde handles personal data when you visit our websites (including [kaperkun.de](https://kaperkun.de), kaperkunde.com, kaperkunde.nl, and godutch.us), create an account, comment, subscribe, contact us, or use one of our applications and services — **[plek.je](https://plek.je)** managed hosting, or **Lore Spawner** collaborative storytelling.
+This Privacy Policy explains how Kaperkunde handles personal data when you visit our websites (including [kaperkun.de](https://kaperkun.de), kaperkunde.com, kaperkunde.nl, and godutch.us), create an account, comment, subscribe, contact us, or use one of our applications and services — **[plek.je](https://plek.je)** managed hosting, **Lore Spawner** collaborative storytelling, or **Study Guild** shared flashcards.
 
 This Policy is the company-wide one and applies to everything Kaperkunde runs. Each product also publishes a short notice of its own covering what that product holds, who it relies on, and how long it keeps things; where the two speak to the same question, the product notice is the more specific answer.
 
@@ -37,6 +37,7 @@ This Policy applies if you:
 - contact us for support, sales, or other inquiries
 - sign up for or use **[plek.je](https://plek.je)**
 - sign up for or use **Lore Spawner**, or receive an invitation to join someone there
+- sign up for or use **Study Guild**, add cards to one of its guilds, or open a member's invitation to a guild there
 
 ---
 
@@ -82,6 +83,7 @@ Some of what a product holds only makes sense in that product — the devices yo
 |---|---|
 | **[plek.je](https://plek.je)** managed hosting | [hosting/README.md](hosting/README.md) |
 | **Lore Spawner** | [lorespawner/privacy.md](lorespawner/privacy.md) |
+| **Study Guild** | [studyguild/privacy.md](studyguild/privacy.md) |
 
 Those notices add detail. They never take away a right this Policy gives you.
 
@@ -129,7 +131,7 @@ For **[plek.je](https://plek.je)**, we also do not use hosted customer content f
 
 We use carefully selected subprocessors bound by appropriate contractual obligations.
 
-Each product publishes its own list as well, since what a product depends on is particular to it: [plek.je](hosting/subprocessors.md) and [Lore Spawner](lorespawner/subprocessors.md).
+Each product publishes its own list as well, since what a product depends on is particular to it: [plek.je](hosting/subprocessors.md), [Lore Spawner](lorespawner/subprocessors.md) and [Study Guild](studyguild/subprocessors.md).
 
 ### 5.1 When Kaperkunde is controller
 
@@ -151,6 +153,8 @@ When Kaperkunde acts as a **processor** for your hosted website, the current sub
 If you enable additional third-party services inside your hosted site — such as Mailgun for email, Stripe for payments to your readers or members, or other integrations — those are direct relationships between you and the provider. They are your responsibility and are not covered by our subprocessor lists.
 
 The same applies to AI assistants and other apps you connect to your [plek.je](https://plek.je) account (for example by adding plek.je as a connector in Claude). A connected app can read and change your hosted sites' content, members and settings with the permissions you approve, acting inside each site as a staff user called "Plek.je assistant". What the app and its provider do with that data is governed by your agreement with them, not by us. We keep only what is needed to let the app in: a record of what you approved and the access keys. You can disconnect an app at any time from your account page, or remove its access to a single site in that site's settings.
+
+Lore Spawner and Study Guild offer the same kind of connection. Each product's own notice says what a connected app can reach there and where to disconnect it; in every case the app is your relationship with its provider, not a subprocessor of ours.
 
 ---
 
