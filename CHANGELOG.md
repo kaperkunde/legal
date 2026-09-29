@@ -10,7 +10,8 @@ Documents are versioned independently using git tags:
 
 Product-specific documents have changelogs of their own:
 [hosting/CHANGELOG.md](hosting/CHANGELOG.md) (`hosting-tos-`, `hosting-aup-`, `hosting-subprocessors-`)
-and [lorespawner/CHANGELOG.md](lorespawner/CHANGELOG.md) (`lorespawner-privacy-`, `lorespawner-terms-`, `lorespawner-subprocessors-`).
+[lorespawner/CHANGELOG.md](lorespawner/CHANGELOG.md) (`lorespawner-privacy-`, `lorespawner-terms-`, `lorespawner-subprocessors-`)
+and [studyguild/CHANGELOG.md](studyguild/CHANGELOG.md) (`studyguild-privacy-`, `studyguild-terms-`, `studyguild-subprocessors-`).
 
 ### View a tagged version
 
@@ -22,6 +23,20 @@ git show privacy-2026.2:privacy.md
 On GitHub: `https://github.com/kaperkunde/legal/releases/tag/<tag-name>`
 
 When publishing a new version, commit the change, create the tag, push both, and add an entry below.
+
+---
+
+## [privacy-2026.10] — 2026-09-28
+
+**Effective date:** 28 September 2026
+
+- Scope: named Study Guild alongside plek.je and Lore Spawner in the introduction and in §1,
+  so the Policy covers the shared flashcard community from its launch
+- §2.4: added the Study Guild row pointing at [studyguild/privacy.md](studyguild/privacy.md)
+- §5: linked the [Study Guild subprocessor list](studyguild/subprocessors.md) beside the other
+  two
+- §5.3: noted that Lore Spawner and Study Guild offer the same kind of connected-app
+  relationship as plek.je, with each product's notice saying what an app can reach there
 
 ---
 
