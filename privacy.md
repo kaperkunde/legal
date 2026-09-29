@@ -3,6 +3,7 @@
 **Effective date:** 28 September 2026  
 **Controller:** Kaperkunde  
 **KVK number:** 42061326  
+**VAT number:** NL005465494B06  
 **Address:** Prof. E.M. Meijerslaan 1, Amstelveen, The Netherlands  
 **Support:** support@kaperkun.de  
 **Abuse reports:** abuse@kaperkun.de  

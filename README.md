@@ -101,7 +101,7 @@ rather than repeated in each folder:
 | Privacy / GDPR | privacy@kaperkun.de |
 | Legal notices | legal@kaperkun.de |
 
-**Kaperkunde** · KVK 42061326 · Prof. E.M. Meijerslaan 1, Amstelveen, The Netherlands
+**Kaperkunde** · KVK 42061326 · VAT NL005465494B06 · Prof. E.M. Meijerslaan 1, Amstelveen, The Netherlands
 
 ---
 
