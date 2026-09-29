@@ -44,8 +44,9 @@ submodule pointer bumped in the app (`pnpm legal:sync` there) before it reaches 
   assistant tokens 1 hour (access) and 60 days (refresh)
 - Names the two processors: Hetzner for the servers in the EU, and Voyage AI in the United
   States for the text embeddings behind the duplicate check, guild-name check, edit-drift
-  check and search — with exactly which text is sent and that nothing identifying a member
-  goes with it
+  check and search — with exactly which text is sent, that nothing identifying a member goes
+  with it, that it is processed under Voyage AI's data processing agreement, and that
+  Kaperkunde has opted out of Voyage AI's training use so each text is deleted once processed
 - Records that daily reminders are on at sign-up, at 20:00 in the member's zone, and turn off
   in one click from every reminder or in Settings; no marketing mail
 - Defers to the company-wide [Privacy Policy](../privacy.md) for rights, the supervisory
@@ -76,8 +77,10 @@ submodule pointer bumped in the app (`pnpm legal:sync` there) before it reaches 
 
 **Effective date:** 28 September 2026
 
-- Initial Study Guild Subprocessor List: Hetzner for the servers, and Voyage AI for text
-  embeddings, with what each receives
+- Initial Study Guild Subprocessor List: Hetzner for the servers, and Voyage AI Innovations,
+  Inc. for text embeddings, with what each receives; records the Voyage AI DPA and that
+  Kaperkunde has opted out of the training use its terms (§3) otherwise allow, so texts are
+  deleted after processing
 - Records that an AI assistant a member connects, and a site an assistant fetches a picture
   from, are not Kaperkunde subprocessors, and that public guild pages being read by crawlers is
   publication rather than a transfer

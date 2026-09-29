@@ -24,10 +24,17 @@ each question once.
 | Subprocessor | Purpose | What it receives | Location / notes |
 |---|---|---|---|
 | **Hetzner Online GmbH** | The servers Study Guild runs on: the application, the database, card pictures and outbound mail | Everything stored, as the host of any server does | European Union. The only processor with access to stored data. |
-| **Voyage AI** | Text embeddings — the list of numbers that stands for a text's meaning — which the duplicate check, the "a guild like this exists" check, the edit-drift check and card search compare | The text of a card being added or edited (question and answer, formatting removed, whether or not the card is then saved), the name of a guild being founded, and the search queries an assistant runs. Never a member's name, email or account, and never a picture. | United States. A transfer outside the EEA under the safeguards in [§6 of the Privacy Policy](../privacy.md#6-international-transfers). Voyage AI's own [terms](https://www.voyageai.com/legal/terms-of-service) and [privacy policy](https://www.voyageai.com/legal/privacy-policy) govern what it does with the text it receives. |
+| **Voyage AI Innovations, Inc.** | Text embeddings — the list of numbers that stands for a text's meaning — which the duplicate check, the "a guild like this exists" check, the edit-drift check and card search compare | The text of a card being added or edited (question and answer, formatting removed, whether or not the card is then saved), the name of a guild being founded, and the search queries an assistant runs. Never a member's name, email or account, and never a picture. | United States. Processed under Voyage AI's [Data Processing Agreement](https://www.voyageai.com/dpa), and a transfer outside the EEA under the safeguards in [§6 of the Privacy Policy](../privacy.md#6-international-transfers). Kaperkunde has opted out of Voyage AI's use of what it receives to train its models, so each text is deleted as soon as its numbers have been computed. |
 
 Voyage AI is told nothing about who wrote a text or which guild it belongs to; it receives the
 words and returns the numbers, and those numbers stay in Kaperkunde's own database.
+
+Voyage AI's [terms of service](https://www.voyageai.com/legal/terms-of-service) (§3) would let
+it keep what a customer sends and use it to train its own models, unless the customer opts out.
+Kaperkunde has opted out for the account Study Guild uses, which under those terms means Voyage
+AI deletes each text immediately after processing it. Nothing Study Guild sends is used to
+train anybody's model — the company-wide promise in
+[§4 of the Privacy Policy](../privacy.md#4-what-we-do-not-do) holds here too.
 
 ---
 

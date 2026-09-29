@@ -173,7 +173,10 @@ text — the question and the answer, with formatting removed — is sent to
 compare. The same goes for a guild's name when it is founded and for a search an assistant
 runs on your behalf. Nothing about you goes with it: no name, no email, no account, and never
 a picture. Voyage AI is in the United States, so this is a transfer outside the EEA under the
-safeguards [§6 of the Privacy Policy](../privacy.md#6-international-transfers) describes.
+safeguards [§6 of the Privacy Policy](../privacy.md#6-international-transfers) describes, and
+it processes the text under its data processing agreement. Its terms would let it keep what it
+receives to train its own models; we have opted out of that, so it deletes each text as soon as
+it has computed the numbers.
 
 **Assistants you connect.** An assistant you allow into your account acts as you, within the
 limits you set; see the next section.
