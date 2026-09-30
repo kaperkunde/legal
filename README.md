@@ -16,6 +16,7 @@ This repository is the source of truth for terms, privacy notices, and related p
 | [Hosting documentation](hosting/README.md) | Terms of Service, Acceptable Use Policy, and Subprocessor List for [plek.je](https://plek.je) managed Ghost hosting |
 | [Lore Spawner documentation](lorespawner/README.md) | Privacy Notice, Terms of Use, and Subprocessor List for the Lore Spawner collaborative storytelling app |
 | [Study Guild documentation](studyguild/README.md) | Privacy Notice, Terms of Use, and Subprocessor List for the Study Guild shared flashcard community |
+| [PCP documentation](pcp/README.md) | Terms of Use and Privacy Notice for PCP, the self-hosted MCP gateway Kaperkunde publishes as open source |
 
 ### Privacy Policy — table of contents
 
@@ -67,6 +68,15 @@ Full section index: [lorespawner/README.md](lorespawner/README.md)
 
 Full section index: [studyguild/README.md](studyguild/README.md)
 
+### PCP documents
+
+| Document | Path |
+|----------|------|
+| Terms of Use | [pcp/terms.md](pcp/terms.md) |
+| Privacy Notice | [pcp/privacy.md](pcp/privacy.md) |
+
+Full section index: [pcp/README.md](pcp/README.md)
+
 ---
 
 ## How this repository is laid out
@@ -78,6 +88,10 @@ only what is particular to it — what that product keeps, who it depends on, an
 A product's notice adds detail to the company-wide policy. It never takes away a right the
 policy gives. Adding a product means copying the shape of an existing folder: a `README.md`
 index, the documents themselves, and a `CHANGELOG.md` with its own tag prefix.
+
+Software Kaperkunde publishes as open source but does not run, such as PCP, has a folder too. There
+the documents say who is responsible when somebody else runs it, and have no subprocessor list,
+because Kaperkunde processes nothing.
 
 These principles hold across every Kaperkunde product, and are stated once in the Privacy Policy
 rather than repeated in each folder:

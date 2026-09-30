@@ -11,7 +11,8 @@ Documents are versioned independently using git tags:
 Product-specific documents have changelogs of their own:
 [hosting/CHANGELOG.md](hosting/CHANGELOG.md) (`hosting-tos-`, `hosting-aup-`, `hosting-subprocessors-`)
 [lorespawner/CHANGELOG.md](lorespawner/CHANGELOG.md) (`lorespawner-privacy-`, `lorespawner-terms-`, `lorespawner-subprocessors-`)
-and [studyguild/CHANGELOG.md](studyguild/CHANGELOG.md) (`studyguild-privacy-`, `studyguild-terms-`, `studyguild-subprocessors-`).
+[studyguild/CHANGELOG.md](studyguild/CHANGELOG.md) (`studyguild-privacy-`, `studyguild-terms-`, `studyguild-subprocessors-`)
+and [pcp/CHANGELOG.md](pcp/CHANGELOG.md) (`pcp-privacy-`, `pcp-terms-`).
 
 ### View a tagged version
 
