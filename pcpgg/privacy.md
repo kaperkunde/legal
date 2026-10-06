@@ -49,7 +49,8 @@ assistants use to reach your PCP either: you make those in PCP, and an app such 
 signs in for one on your PCP, inside the encrypted connection.
 
 While a connection passes, the relay does see where it came from, when, and roughly how much
-moved, because it has to carry it. It does not write any of that down.
+moved, because it has to carry it. It does not write any of that down, and nor does the proxy in
+front of it, which hands an encrypted connection for your name to the relay without opening it.
 
 The one exception is the pcp.gg app in Claude and ChatGPT, which you choose per assistant once
 it is available; see [The pcp.gg app](#the-pcpgg-app) below. The site's
@@ -77,8 +78,15 @@ the promise ends.
 - **The relay's own log.** One line each time a PCP connects or disconnects, naming the
   connection by an internal number and the time. No addresses, no names asked for, no byte
   counts.
+- **The web server's request log.** pcp.gg shares its server, and the proxy in front of it, with
+  other Kaperkunde services, and that proxy keeps an ordinary log of the web requests it
+  answers: the internet address, the time, the address asked for, the answer and the browser.
+  That covers visits to pcp.gg itself, your PCP's connection to `tunnel.pcp.gg`, and plain-HTTP
+  requests to your name, which pcp.gg answers with a redirect to HTTPS. It does not cover the
+  encrypted connections to your name that carry what your assistant and your PCP say to each
+  other: those are handed to the relay unopened, as above.
 
-That is the whole list. Neither the site nor the relay keeps a log of requests or connections.
+That is the whole list. pcp.gg's own code keeps no log of requests or connections.
 There is no analytics, no advertising, no tracking pixel and no profiling of you anywhere in
 pcp.gg. The only cookie pcp.gg sets is the one that keeps you signed in, which is why you have
 never been asked to dismiss a cookie banner here.
@@ -125,6 +133,7 @@ Mail goes out from a mail server Kaperkunde runs itself. We send no marketing ma
 | An invite sent to your address | As long as the account made with it, or until it expires unused |
 | An app you allowed | Until the account goes; disconnecting stops it at once, and only the record that you once allowed it remains |
 | The relay's log of connects and disconnects | Until the server's logs are rotated |
+| The web server's request log | Until the server's logs are rotated |
 | Rate-limit counts | A minute, or an hour for app registrations, and never written down |
 
 Everything else goes when the account does. Deleted data may remain in backups until those
@@ -139,8 +148,8 @@ brokers or AI training sets.**
 
 **One processor for the servers.** pcp.gg runs on a server rented from
 [Hetzner](https://www.hetzner.com), in Germany. Everything the service is made of — the site,
-the database, the relay and the mail server that sends your invite and reset links — is software
-Kaperkunde runs itself on that server. No analytics service, no content delivery network, no
+the database, the relay, the proxy in front of them and the mail server that sends your invite
+and reset links — is software Kaperkunde runs itself on that server. No analytics service, no content delivery network, no
 mail provider, and nothing in front of the relay that could open a connection to your name.
 
 **Certificate Transparency logs, for your name.** Once your PCP has a certificate for your name,

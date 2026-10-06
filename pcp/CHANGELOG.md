@@ -26,6 +26,20 @@ below. PCP does not pin this repository as a submodule: its footer links to this
 
 ---
 
+## [pcp-privacy-2026.3] — 2026-10-06
+
+**Effective date:** 6 October 2026
+
+- "What Kaperkunde holds": PCP now has an update check, so the notice no longer says it has none.
+  It asks GitHub's public API for the latest release once a day and on "Check now", sending only
+  PCP's version in the user agent; GitHub sees the instance's address and Kaperkunde is told
+  nothing. On by default, off under Settings → Updates
+- Records that installing is the operator's choice: the desktop app downloads from GitHub only
+  when asked to install, and the Linux installer's optional automatic updates pull from GitHub's
+  container registry
+
+---
+
 ## [pcp-privacy-2026.2] — 2026-10-06
 
 **Effective date:** 6 October 2026

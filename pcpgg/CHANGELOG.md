@@ -27,6 +27,23 @@ submodule pointer bumped in the app (`pnpm legal:sync` there) before it reaches 
 
 ---
 
+## [pcpgg-privacy-2026.2] — 2026-10-06
+
+**Effective date:** 6 October 2026
+
+- "What we hold": added the web server's request log. pcp.gg shares its server and the proxy in
+  front of it with other Kaperkunde services, and that proxy logs the web requests it answers
+  (address, time, address asked for, answer, browser): visits to the site, the PCP's connection
+  to `tunnel.pcp.gg`, and plain-HTTP requests to a name. The encrypted connections to a name are
+  handed to the relay unopened and are not in it
+- "That is the whole list" now says pcp.gg's own code keeps no log of requests or connections,
+  rather than the site and relay
+- "How long": the request log is kept until the server's logs are rotated, as the relay's is
+- "Who else ever sees it": the proxy named among the software Kaperkunde runs on the Hetzner
+  server
+
+---
+
 ## [pcpgg-privacy-2026.1] — 2026-10-06
 
 **Effective date:** 6 October 2026

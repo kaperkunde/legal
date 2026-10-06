@@ -37,8 +37,19 @@ Anything about Kaperkunde's own handling of your data, and any request about it,
 
 ## What Kaperkunde holds: nothing
 
-PCP does not connect to Kaperkunde. It has no account, no telemetry, no update check, no crash
-report and no analytics. Nothing an instance does is sent to Kaperkunde.
+PCP does not connect to Kaperkunde. It has no account, no telemetry, no crash report and no
+analytics. Nothing an instance does is sent to Kaperkunde.
+
+**The update check asks GitHub, not Kaperkunde.** Once a day, and when the operator presses
+"Check now", an instance asks GitHub's public API which release of PCP is the latest. The request
+carries nothing but PCP's version in its user agent: no credential, no cookie and nothing from
+the vault. GitHub sees the instance's internet address, as it would for any request, under
+[GitHub's own privacy statement](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement);
+Kaperkunde is not told. The check is on by default and the operator can turn it off under
+Settings → Updates. Installing an update is never automatic unless the operator sets it up: the
+desktop app downloads a new version from GitHub only when the operator chooses to install it,
+and the Linux installer's optional automatic updates pull the new image from GitHub's container
+registry.
 
 The one exception is one the operator turns on: [pcp.gg](https://pcp.gg), a separate service
 Kaperkunde runs that gives an instance a public name. An instance only connects to it once its
