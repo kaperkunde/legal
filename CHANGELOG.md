@@ -12,6 +12,7 @@ Product-specific documents have changelogs of their own:
 [hosting/CHANGELOG.md](hosting/CHANGELOG.md) (`hosting-tos-`, `hosting-aup-`, `hosting-subprocessors-`)
 [lorespawner/CHANGELOG.md](lorespawner/CHANGELOG.md) (`lorespawner-privacy-`, `lorespawner-terms-`, `lorespawner-subprocessors-`)
 [studyguild/CHANGELOG.md](studyguild/CHANGELOG.md) (`studyguild-privacy-`, `studyguild-terms-`, `studyguild-subprocessors-`)
+[pcpgg/CHANGELOG.md](pcpgg/CHANGELOG.md) (`pcpgg-privacy-`, `pcpgg-terms-`, `pcpgg-subprocessors-`)
 and [pcp/CHANGELOG.md](pcp/CHANGELOG.md) (`pcp-privacy-`, `pcp-terms-`).
 
 ### View a tagged version
@@ -24,6 +25,17 @@ git show privacy-2026.2:privacy.md
 On GitHub: `https://github.com/kaperkunde/legal/releases/tag/<tag-name>`
 
 When publishing a new version, commit the change, create the tag, push both, and add an entry below.
+
+---
+
+## [privacy-2026.11] — 2026-10-06
+
+**Effective date:** 6 October 2026
+
+- Scope: named [pcp.gg](https://pcp.gg) alongside plek.je, Lore Spawner and Study Guild in the
+  introduction and in §1, so the Policy covers the bridge for owners' PCPs from its alpha
+- §2.4: added the pcp.gg row pointing at [pcpgg/privacy.md](pcpgg/privacy.md)
+- §5: linked the [pcp.gg subprocessor list](pcpgg/subprocessors.md) beside the others
 
 ---
 

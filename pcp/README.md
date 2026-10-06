@@ -4,7 +4,7 @@ Legal documentation for **PCP**, the self-hosted gateway to your MCP servers, pu
 Kaperkunde as open-source software at
 [github.com/kaperkunde/pcp](https://github.com/kaperkunde/pcp).
 
-**Effective date: 30 September 2026** · [Repository overview](../README.md)
+**Effective date: 6 October 2026** · [Repository overview](../README.md)
 
 ---
 

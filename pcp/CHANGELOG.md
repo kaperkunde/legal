@@ -26,6 +26,16 @@ below. PCP does not pin this repository as a submodule: its footer links to this
 
 ---
 
+## [pcp-privacy-2026.2] — 2026-10-06
+
+**Effective date:** 6 October 2026
+
+- "What Kaperkunde holds": named [pcp.gg](https://pcp.gg) as the one connection to a Kaperkunde
+  service, made only once the operator pastes a pcp.gg connection key, and pointed at the
+  [pcp.gg Privacy Notice](../pcpgg/privacy.md) for what it holds
+
+---
+
 ## [pcp-privacy-2026.1] — 2026-09-30
 
 **Effective date:** 30 September 2026

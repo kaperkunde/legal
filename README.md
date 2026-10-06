@@ -8,7 +8,7 @@ This repository is the source of truth for terms, privacy notices, and related p
 
 ## Current documents
 
-**Effective date: 28 September 2026**
+**Effective date: 6 October 2026**
 
 | Document | Description |
 |----------|-------------|
@@ -16,6 +16,7 @@ This repository is the source of truth for terms, privacy notices, and related p
 | [Hosting documentation](hosting/README.md) | Terms of Service, Acceptable Use Policy, and Subprocessor List for [plek.je](https://plek.je) managed Ghost hosting |
 | [Lore Spawner documentation](lorespawner/README.md) | Privacy Notice, Terms of Use, and Subprocessor List for the Lore Spawner collaborative storytelling app |
 | [Study Guild documentation](studyguild/README.md) | Privacy Notice, Terms of Use, and Subprocessor List for the Study Guild shared flashcard community |
+| [pcp.gg documentation](pcpgg/README.md) | Terms of Use, Privacy Notice, and Subprocessor List for [pcp.gg](https://pcp.gg), the bridge that gives an owner's own PCP a public name |
 | [PCP documentation](pcp/README.md) | Terms of Use and Privacy Notice for PCP, the self-hosted MCP gateway Kaperkunde publishes as open source |
 
 ### Privacy Policy — table of contents
@@ -67,6 +68,16 @@ Full section index: [lorespawner/README.md](lorespawner/README.md)
 | Subprocessor List | [studyguild/subprocessors.md](studyguild/subprocessors.md) |
 
 Full section index: [studyguild/README.md](studyguild/README.md)
+
+### pcp.gg documents
+
+| Document | Path |
+|----------|------|
+| Terms of Use | [pcpgg/terms.md](pcpgg/terms.md) |
+| Privacy Notice | [pcpgg/privacy.md](pcpgg/privacy.md) |
+| Subprocessor List | [pcpgg/subprocessors.md](pcpgg/subprocessors.md) |
+
+Full section index: [pcpgg/README.md](pcpgg/README.md)
 
 ### PCP documents
 

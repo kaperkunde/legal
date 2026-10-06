@@ -1,6 +1,6 @@
 # Kaperkunde Privacy Policy
 
-**Effective date:** 28 September 2026  
+**Effective date:** 6 October 2026  
 **Controller:** Kaperkunde  
 **KVK number:** 42061326  
 **VAT number:** NL005465494B06  
@@ -10,7 +10,7 @@
 **Privacy/GDPR requests:** privacy@kaperkun.de  
 **Legal notices:** legal@kaperkun.de  
 
-This Privacy Policy explains how Kaperkunde handles personal data when you visit our websites (including [kaperkun.de](https://kaperkun.de), kaperkunde.com, kaperkunde.nl, and godutch.us), create an account, comment, subscribe, contact us, or use one of our applications and services — **[plek.je](https://plek.je)** managed hosting, **Lore Spawner** collaborative storytelling, or **Study Guild** shared flashcards.
+This Privacy Policy explains how Kaperkunde handles personal data when you visit our websites (including [kaperkun.de](https://kaperkun.de), kaperkunde.com, kaperkunde.nl, and godutch.us), create an account, comment, subscribe, contact us, or use one of our applications and services — **[plek.je](https://plek.je)** managed hosting, **Lore Spawner** collaborative storytelling, **Study Guild** shared flashcards, or **[pcp.gg](https://pcp.gg)**, the bridge that gives the PCP on your own computer a public name.
 
 This Policy is the company-wide one and applies to everything Kaperkunde runs. Each product also publishes a short notice of its own covering what that product holds, who it relies on, and how long it keeps things; where the two speak to the same question, the product notice is the more specific answer.
 
@@ -39,6 +39,7 @@ This Policy applies if you:
 - sign up for or use **[plek.je](https://plek.je)**
 - sign up for or use **Lore Spawner**, or receive an invitation to join someone there
 - sign up for or use **Study Guild**, add cards to one of its guilds, or open a member's invitation to a guild there
+- join the waitlist for, sign up for, or use **[pcp.gg](https://pcp.gg)**
 
 ---
 
@@ -85,6 +86,7 @@ Some of what a product holds only makes sense in that product — the devices yo
 | **[plek.je](https://plek.je)** managed hosting | [hosting/README.md](hosting/README.md) |
 | **Lore Spawner** | [lorespawner/privacy.md](lorespawner/privacy.md) |
 | **Study Guild** | [studyguild/privacy.md](studyguild/privacy.md) |
+| **[pcp.gg](https://pcp.gg)** | [pcpgg/privacy.md](pcpgg/privacy.md) |
 
 Those notices add detail. They never take away a right this Policy gives you.
 
@@ -132,7 +134,7 @@ For **[plek.je](https://plek.je)**, we also do not use hosted customer content f
 
 We use carefully selected subprocessors bound by appropriate contractual obligations.
 
-Each product publishes its own list as well, since what a product depends on is particular to it: [plek.je](hosting/subprocessors.md), [Lore Spawner](lorespawner/subprocessors.md) and [Study Guild](studyguild/subprocessors.md).
+Each product publishes its own list as well, since what a product depends on is particular to it: [plek.je](hosting/subprocessors.md), [Lore Spawner](lorespawner/subprocessors.md), [Study Guild](studyguild/subprocessors.md) and [pcp.gg](pcpgg/subprocessors.md).
 
 ### 5.1 When Kaperkunde is controller
 

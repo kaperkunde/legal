@@ -1,6 +1,6 @@
 # PCP Privacy Notice
 
-**Effective date:** 30 September 2026  
+**Effective date:** 6 October 2026  
 **Publisher:** Kaperkunde  
 **KVK number:** 42061326  
 **Address:** Prof. E.M. Meijerslaan 1, Amstelveen, The Netherlands  
@@ -39,6 +39,12 @@ Anything about Kaperkunde's own handling of your data, and any request about it,
 
 PCP does not connect to Kaperkunde. It has no account, no telemetry, no update check, no crash
 report and no analytics. Nothing an instance does is sent to Kaperkunde.
+
+The one exception is one the operator turns on: [pcp.gg](https://pcp.gg), a separate service
+Kaperkunde runs that gives an instance a public name. An instance only connects to it once its
+operator pastes a pcp.gg connection key under Settings → pcp.gg, and what pcp.gg then holds,
+which is not what passes through it, is set out in the
+[pcp.gg Privacy Notice](../pcpgg/privacy.md).
 
 One thing is outside PCP's own code. It is built on Next.js, which has an anonymous telemetry
 setting of its own that reports to Vercel, never to Kaperkunde. The Docker image turns it off;
