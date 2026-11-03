@@ -117,6 +117,34 @@ rather than repeated in each folder:
 
 ---
 
+## How the documents reach the products
+
+Every push to `main` publishes the documents to npm as
+[`@kaperkunde/legal-docs`](https://www.npmjs.com/package/@kaperkunde/legal-docs)
+(`.github/workflows/publish.yml`). The version is `1.0.` followed by the number of commits on
+`main`, so every change is a patch, and the products pick it up the way they pick up any other
+dependency. The package holds the markdown exactly as it is here, at the same paths, and
+`manifest.json` beside it, which `scripts/manifest.mjs` writes from the history:
+
+- the commit the package was made from;
+- for every document, its git blob SHA, the last commit that changed it and that commit's date,
+  and its latest release tag, with whether the document is still word for word what was tagged.
+
+The last commit that changed a document is what a product records acceptance against. plek.je
+asks customers to accept its Terms of Service again only when `hosting/tos.md` itself changes,
+never because the Privacy Policy or a subprocessor list was corrected.
+
+The products read the package through `@kaperkunde/legal` (in
+[kaperkunde/common-public](https://github.com/kaperkunde/common-public)), which renders the
+markdown and checks at start-up that the documents served are the ones the manifest names.
+Changing what a product says is a commit here; nothing in a product's own repository changes
+the words.
+
+The changelogs and the tooling are not in the package. Run `node scripts/manifest.mjs` in a
+full clone to see the manifest a commit would publish.
+
+---
+
 ## Contact
 
 | Purpose | Email |

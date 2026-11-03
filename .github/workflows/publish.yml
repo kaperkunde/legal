@@ -1,0 +1,63 @@
+name: publish
+
+# Every push to main publishes the documents as @kaperkunde/legal-docs.
+#
+# The version is 1.0.<number of commits on main>, so every change is a patch:
+# Renovate merges a patch into the apps' dev branches by itself, and nobody
+# has to remember to bump anything. A run for a commit already published
+# (a re-run, or a dispatch with nothing new) skips the publish.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          # The manifest names the last commit that changed each document and
+          # its latest tag, which needs the whole history and every tag.
+          fetch-depth: 0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 24
+          registry-url: https://registry.npmjs.org
+
+      - name: Work out the version
+        id: version
+        run: |
+          version="1.0.$(git rev-list --count HEAD)"
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          # npm view prints nothing for a version that does not exist, and
+          # fails for a package that does not exist yet.
+          published="$(npm view "@kaperkunde/legal-docs@$version" version 2>/dev/null || true)"
+          if [ "$published" = "$version" ]; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+            echo "@kaperkunde/legal-docs@$version is already published; nothing to do."
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Write the manifest
+        if: steps.version.outputs.exists == 'false'
+        run: |
+          npm version --no-git-tag-version --allow-same-version "${{ steps.version.outputs.version }}"
+          node scripts/manifest.mjs
+          node scripts/manifest.mjs verify
+
+      - name: Publish
+        if: steps.version.outputs.exists == 'false'
+        run: npm publish --provenance --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
