@@ -2,7 +2,7 @@
   "name": "@kaperkunde/legal-docs",
   "version": "0.0.0",
   "description": "Kaperkunde's legal documents as published markdown, with a manifest of the commit, date and release tag each one stands at.",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "homepage": "https://github.com/kaperkunde/legal#readme",
   "repository": {
     "type": "git",

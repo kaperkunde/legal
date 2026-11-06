@@ -140,6 +140,9 @@ markdown and checks at start-up that the documents served are the ones the manif
 Changing what a product says is a commit here; nothing in a product's own repository changes
 the words.
 
+The package is published as `UNLICENSED`: it is public so the products can install it without a
+token, but the documents remain Kaperkunde's, and publishing them grants no right to reuse them.
+
 The changelogs and the tooling are not in the package. Run `node scripts/manifest.mjs` in a
 full clone to see the manifest a commit would publish.
 
