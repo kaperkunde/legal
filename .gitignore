@@ -16,3 +16,6 @@ Icon
 .Trashes
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
+# Written by scripts/manifest.mjs when the package is published
+manifest.json
+*.tgz
