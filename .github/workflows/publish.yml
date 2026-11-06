@@ -33,6 +33,10 @@ jobs:
         with:
           node-version: 24
           registry-url: https://registry.npmjs.org
+      # npm's trusted publishing (OIDC, no token) needs npm 11.5.1 or later.
+      # Once the package names this workflow as its trusted publisher,
+      # NPM_TOKEN can be deleted.
+      - run: npm install -g npm@11.21.1
 
       - name: Work out the version
         id: version
