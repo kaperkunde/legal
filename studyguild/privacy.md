@@ -47,9 +47,9 @@ and a guild is a shared deck on the open web.
   links. Each card has a page of its own showing the card, its history of wordings with who
   wrote each, and how many members gave each kind of feedback on it (for instance that it
   seemed incorrect). The page never says who gave the feedback.
-- Your public name: your username if you have set one, otherwise your first name and the
-  initial of your last name ("Kevin L."). If you would rather not appear under your own first
-  name, set a username in Settings.
+- Your public name: the username you chose when you signed up. (Accounts made before usernames
+  were required may still show a first name and the initial of the last name, "Kevin L."; set a
+  username in Settings to change that.)
 - Your member page, under your public name: your XP and level, your streak and best streak, the
   guilds you are in with your XP and level in each, your Contribution Points, how many cards you
   wrote and improved, the feats you earned and the month you joined.
@@ -236,7 +236,8 @@ over, we will, and we will tell you unless we are forbidden to.
 
 Study Guild can be added to Claude, or to any other assistant that speaks the Model Context
 Protocol, as a connector. Doing so is your choice, made on a page that shows exactly what the
-app asks for before anything is shared. What it can ask for:
+app asks for before anything is shared. Connecting an assistant is also subject to that
+assistant's own terms, including its age rules. What it can ask for:
 
 - to know which account you are, and to see your name and email address;
 - to see guilds, cards and your own stacks;
@@ -308,7 +309,11 @@ consent, and a complaint to the Dutch **Autoriteit Persoonsgegevens** if we get 
 will not make you jump through hoops for any of it.
 
 You need to be 16 or over to use Study Guild, as [§11](../privacy.md#11-children) of the
-Privacy Policy sets out for all our services.
+Privacy Policy sets out for all our services. Signing up asks you to confirm it, and we keep
+only that you confirmed, not a date of birth. If we learn that an account's holder is under 16,
+we close it and tell you why, and your data is removed as described under
+[taking it down](#taking-it-with-you-or-taking-it-down). A parent, or the member, can tell us at
+privacy@kaperkun.de or support@kaperkun.de.
 
 ---
 

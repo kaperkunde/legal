@@ -46,6 +46,9 @@ Guild picks the new version up as a dependency update (Renovate), so nothing els
 - A paragraph on the beta front door and its shared accounts and data
 - Hetzner located in Falkenstein, Germany; VAT number added to the header
 - Short statement of legal bases; rate-limit wording corrected
+- Age: 16 or over confirmed at sign-up (only the confirmation is kept), accounts of under-16s
+  closed with reasons, parents can write to privacy@ or support@; the username chosen at
+  sign-up is the public name; a connected assistant's own terms and age rules also apply
 
 ---
 
@@ -61,6 +64,8 @@ Guild picks the new version up as a dependency update (Renovate), so nothing els
   remove cards, pictures, banners and guilds, limit or suspend accounts; reasons to both
   parties); automatic duplicate and edit checks described
 - §6: delete the account from Settings; §8: the closed EU ODR platform no longer linked
+- §1: age confirmation at sign-up, closure with reasons if the holder is under 16, and the
+  username chosen at sign-up is the public name
 - VAT number added to the header
 
 ---

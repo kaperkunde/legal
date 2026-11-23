@@ -21,9 +21,11 @@ The [Study Guild Privacy Notice](privacy.md) is the other half, and says what is
 
 ## 1. Who may be here
 
-You need to be 16 or over. One account per person; the account is yours, and so is whatever is
-done with it, so do not hand your password to anybody else. Pick a name you are content to see
-beside your cards — other members see your username, or your first name and last initial — and
+You need to be 16 or over, and signing up asks you to confirm it. If we learn that the holder of
+an account is under 16, we close it and tell you why ([§4](#4-reports-and-what-we-do-about-them)).
+One account per person; the account is yours, and so is whatever is done with it, so do not
+hand your password to anybody else. You choose a username when you sign up, and it is your
+public name: other members see it beside your cards. Pick one you are content to see there, and
 keep your email address current, since it is how you sign in and how we reach you.
 
 Study Guild is free. There is nothing to buy, and if that ever changes, nobody is charged
