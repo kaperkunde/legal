@@ -100,8 +100,8 @@ yours or anybody else's, and nothing you need to keep private.
   The reporter is never shown to anyone but us. Reports reach Kaperkunde's support mailbox as a
   digest of the report text and the card, without the reporter's email address.
 - **Moderation.** If an account is suspended we keep that and the reason. Every moderation
-  action (who acted, on which content, and why) is recorded, and the record stays after the
-  affected account is deleted, with the link to the member cleared.
+  action (who acted, on which content, and why) is recorded. The record is kept for two years, and stays after the affected account is
+  deleted, with the link to the member cleared.
 - **Your age.** That you confirmed you are 16 or over, and when. No date of birth.
 - **Invitations.** Your invite link for each guild, and who joined through whose link. Both
   members can see that much: you see how many joined through yours, and the guild page tells a
@@ -184,13 +184,14 @@ shows which are on, and what time they come at, in your own zone. We send no mar
 | A card you delete yourself | Gone from the guild at once. The row stays hidden, so the guild's history of edits and duplicate decisions still adds up, and is erased with your account |
 | A picture on a card or a banner | As long as any wording of the card, or the guild, points at it |
 | A picture uploaded but never put on a card | One day |
-| Reports you made about cards | As long as the card exists, and for 30 days after you delete your account |
+| Reports you made about cards | As long as the card exists, and erased with your account if that comes first |
 | Sign-in sessions | Thirty days from their last use; signing out ends one, a password reset ends all the others |
 | Emailed sign-in links | Ten minutes |
 | Password-reset links | One hour |
 | The invitation cookie | Thirty days, or until you join the guild it was for |
 | Who joined through whose invite link | As long as both accounts |
 | An assistant's access | Until you disconnect it or reset your password. Its access tokens last an hour and its refresh tokens sixty days; disconnecting stops it at once, whatever it still holds |
+| Moderation records (who acted, on what, why) | Two years |
 | Server logs | Thirty days |
 
 [//]: # "TODO(owner): confirm log rotation of 30 days is configured for the app, the proxy and the mail server (DEPLOY.md in studyguild); and choose the card-report retention in the table above."
@@ -294,10 +295,10 @@ normally a great deal sooner than that. This is how Kaperkunde's company-wide ex
 kept here: see [§4.1 of the Privacy Policy](../privacy.md#41-what-we-do-instead).
 
 Deleting your account removes it, your settings, your sessions, your connected assistants, your
-votes (any that were counted are taken back) and your entire training history. Cards that
+votes (any that were counted are taken back), reports you made and your entire training history. Cards that
 other members have taken up stay with their guilds, credited to "a former member"; a card of
-yours that nobody else has studied or voted on goes with you. "Studied or voted on" means
-another member's progress, review or vote, or an edit by another member. A guild you founded
+yours that nobody else has studied, voted on or edited goes with you. "Studied, voted on or
+edited" means another member's progress, review or vote, or an edit by another member. A guild you founded
 stays without a founder, and is erased only if nothing of anyone else remains in it. Banners
 nobody else backs, and uploads no surviving card uses, are erased; banners others back and
 uploads on surviving cards stay, with your name taken off. Referrals you made stay, credited to
