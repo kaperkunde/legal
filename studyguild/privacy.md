@@ -178,7 +178,7 @@ time they come at, in your own zone. We send no marketing mail.
 | Password-reset links | One hour |
 | The invitation cookie | Thirty days, or until you join the guild it was for |
 | Who joined through whose invite link | As long as both accounts |
-| An assistant's access | Until you disconnect it. Its access tokens last an hour and its refresh tokens sixty days; disconnecting stops it at once, whatever it still holds |
+| An assistant's access | Until you disconnect it or reset your password. Its access tokens last an hour and its refresh tokens sixty days; disconnecting stops it at once, whatever it still holds |
 | Server logs | Thirty days |
 
 [//]: # "TODO(owner): confirm log rotation of 30 days is configured for the app, the proxy and the mail server (DEPLOY.md in studyguild); and choose the card-report retention in the table above."
