@@ -199,10 +199,11 @@ Guests' phones load neither service.
 
 | What | How long |
 |---|---|
-| A host's account, parties, and everything said, voted on and played in them | Until the host deletes the party, or the account, which deletes all of it at once |
+| A host's account, parties, and everything voted on and played in them | Until the host deletes the party, or the account, which deletes all of it at once |
 | The record of what the AI cost, and the host's AI choices | As long as the host's account |
 | The waitlist | Until the address is admitted and the account deleted, or until you ask us to remove it |
-| A guest's name in a party, and their messages and votes | As long as the host keeps the party, or until the guest asks us to remove them |
+| Chat messages | 90 days after each message was sent, then it is deleted, whether or not the party is still there |
+| A guest's name in a party, and their votes | As long as the host keeps the party or the account, or until the guest asks us to remove them |
 | A guest's device id and taste list, with no account | 90 days after the device was last used in AJ; then it is deleted |
 | A guest's taste list, once they make an account | As long as that account |
 | Spoken breaks (text and audio) | 24 hours |

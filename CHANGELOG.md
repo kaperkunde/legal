@@ -41,6 +41,8 @@ When publishing a new version, commit the change, create the tag, push both, and
   API Services disclosure with links to the YouTube Terms of Service and Google Privacy Policy,
   Apple Music, retention per category, and how a host deletes their account and a guest has
   their data removed
+- §2.5 retention: chat messages are deleted 90 days after they were sent, one by one, whether or
+  not the party is still there; a guest's name and votes stay until the party or account is deleted
 - §5: pointed at §5.4 for AJ
 - §5.4 (new): AJ's subprocessors — Hetzner; Anthropic and OpenAI through Kaperkunde's Token
   Center; Stripe for token purchases — the Token Center named as Kaperkunde's own service, and
