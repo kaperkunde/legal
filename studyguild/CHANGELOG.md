@@ -46,6 +46,9 @@ Guild picks the new version up as a dependency update (Renovate), so nothing els
 - A paragraph on the beta front door and its shared accounts and data
 - Hetzner located in Falkenstein, Germany; VAT number added to the header
 - Short statement of legal bases; rate-limit wording corrected
+- Matches the built code: card pages, moderation and age records, streak-notice state, report
+  digest, what the export covers and exactly what deletion erases or keeps, the nightly sweep
+  of expired sessions, links and tokens
 - Age: 16 or over confirmed at sign-up (only the confirmation is kept), accounts of under-16s
   closed with reasons, parents can write to privacy@ or support@; the username chosen at
   sign-up is the public name; a connected assistant's own terms and age rules also apply

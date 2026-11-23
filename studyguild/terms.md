@@ -107,7 +107,8 @@ What we can do about something: hide or delete a card, a wording, a picture, a b
 guild, limit what an account can do, or suspend or close it, when these rules or the law call
 for it. Each time, the member concerned and the person who reported it are told what we did,
 the facts and the rule behind it, and whether anything automatic played a part, as the
-notice-and-action policy sets out. If you think we got it wrong, say so in reply, and a person
+notice-and-action policy sets out. When a guild is removed, members' stacks in it count as
+left: they can rejoin within the usual 30 days if it is restored. If you think we got it wrong, say so in reply, and a person
 looks again.
 
 Some things happen without a person: the duplicate check turns away a card that asks what an

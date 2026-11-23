@@ -44,9 +44,11 @@ and a guild is a shared deck on the open web.
 **Public, readable by anyone, signed in or not:**
 
 - A guild's name, subject and description, and every card in it: question, answer, pictures and
-  links. Each card has a page of its own showing the card, its history of wordings with who
-  wrote each, and how many members gave each kind of feedback on it (for instance that it
-  seemed incorrect). The page never says who gave the feedback.
+  links. Each card has a page of its own showing the card, its wordings credited to their
+  authors' public names, its score with the up and down votes counted, how many members gave
+  each kind of feedback on it (for instance that it seemed incorrect), and the duplicate
+  decisions made about it. The page never names who gave feedback, voted or decided, and your
+  own progress on a card is shown only to you.
 - Your public name: the username you chose when you signed up. (Accounts made before usernames
   were required may still show a first name and the initial of the last name, "Kevin L."; set a
   username in Settings to change that.)
@@ -94,13 +96,20 @@ yours or anybody else's, and nothing you need to keep private.
   totals they add up to: Guild XP, level, streak, best streak, contributor score, the feats you
   earned, and the last day you trained or visited.
 - **Reports.** When you mark a card as bad you give a reason; we keep who reported which card
-  and why, so we can deal with abuse. The reporter is never shown to anyone but us.
+  and why, and whether it has been handled and the reporter told, so we can deal with abuse.
+  The reporter is never shown to anyone but us. Reports reach Kaperkunde's support mailbox as a
+  digest of the report text and the card, without the reporter's email address.
+- **Moderation.** If an account is suspended we keep that and the reason. Every moderation
+  action (who acted, on which content, and why) is recorded, and the record stays after the
+  affected account is deleted, with the link to the member cleared.
+- **Your age.** That you confirmed you are 16 or over, and when. No date of birth.
 - **Invitations.** Your invite link for each guild, and who joined through whose link. Both
   members can see that much: you see how many joined through yours, and the guild page tells a
   visitor who invited them.
 - **Notifications.** For each kind of optional email, whether it is on, and when we last sent it
-  to you, so you never get two. The last day you visited is kept so that we do not nag you when
-  you have just been here.
+  to you, so you never get two; for streak notices, what was offered to you and whether you
+  declined it. The last day you visited is kept so that we do not nag you when you have just
+  been here.
 - **Assistants you connect.** How the app described itself when it asked for access, what you
   allowed it to do and when, and the access tokens it holds, stored hashed, so a copy of our
   database would not let anyone act as you.
@@ -136,8 +145,9 @@ uploaded for a card that was never saved is deleted after a day.
 ### Rate limits
 
 To keep one runaway script from spoiling the site for everyone, we count requests to the
-sign-in pages by IP address over the last minute or hour. These counts live in memory and are
-gone as soon as the window passes; they are never written down. How many cards and guilds you
+sign-in pages by IP address, and the sign-in and reset emails sent to one address, over the last
+minute or hour. These counts live in memory and are gone as soon as the window passes; they are
+never written down. How many cards and guilds you
 may add in a day is worked out from the cards and guilds you have already added, so it needs
 nothing more than that.
 
@@ -155,10 +165,11 @@ secure and worth using. An assistant you connect rests on your own choice to con
 here is decided about you by a machine, apart from refusing a card that duplicates another.
 
 **Email.** We send two kinds. *Essential account mail* (the welcome, sign-in links, password
-resets and security notices) goes with having an account. *Optional study notifications*, such
-as training reminders and streak notices, each have their own switch in Settings, and every one
-carries a link that turns that kind off in one click. Settings shows which are on, and what
-time they come at, in your own zone. We send no marketing mail.
+resets, and the explanation we owe you when we act on your content or account) goes with having
+an account. *Optional study notifications*, such as training reminders, streak notices and a
+single note after a month away, each have their own switch in Settings, and every one carries a
+link that turns that kind off in one click. They pause on their own if you stay away. Settings
+shows which are on, and what time they come at, in your own zone. We send no marketing mail.
 
 ---
 
@@ -273,18 +284,23 @@ card-by-card training is never anybody's but yours.
 
 ## Taking it with you, or taking it down
 
-In **Settings** you can **download your data** as a machine-readable file (your account, the
-cards and guilds you contributed, your votes and your whole training history) and **delete your
-account**, both at once and by yourself. If you cannot use Settings, email
+In **Settings** you can **download your data** as a machine-readable file (your account and
+settings, stacks and progress, review history and sessions, the cards and edits you wrote,
+your pictures and banners and banner votes, votes, reports, hidden cards, duplicate log, feats,
+referrals, and the names and permissions of your connected apps) and **delete your account**, both at once and by yourself. If you cannot use Settings, email
 **privacy@kaperkun.de** and we will do either for you; you hear back within 30 days, and
 normally a great deal sooner than that. This is how Kaperkunde's company-wide export promise is
 kept here: see [§4.1 of the Privacy Policy](../privacy.md#41-what-we-do-instead).
 
 Deleting your account removes it, your settings, your sessions, your connected assistants, your
-votes and your entire training history. Cards and guilds you contributed that other members
-have taken up stay with their guilds, credited to "a former member"; a card of yours that
-nobody else has studied or voted on goes with you. Deleted data may remain in backups until
-those expire or are overwritten.
+votes (any that were counted are taken back) and your entire training history. Cards that
+other members have taken up stay with their guilds, credited to "a former member"; a card of
+yours that nobody else has studied or voted on goes with you. "Studied or voted on" means
+another member's progress, review or vote, or an edit by another member. A guild you founded
+stays without a founder, and is erased only if nothing of anyone else remains in it. Banners
+nobody else backs, and uploads no surviving card uses, are erased; banners others back and
+uploads on surviving cards stay, with your name taken off. Referrals you made stay, credited to
+no one. Deleted data may remain in backups until those expire or are overwritten.
 
 ---
 
