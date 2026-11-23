@@ -179,7 +179,7 @@ shows which are on, and what time they come at, in your own zone. We send no mar
 | What | How long |
 |---|---|
 | Your account, settings and training history | Until you delete the account |
-| A guild you left | Your stack and progress there for thirty days, so you can rejoin, then deleted; your XP stays in your total |
+| A guild you left, or that we removed | Your stack and progress there for thirty days, so you can rejoin (or return if the guild is restored), then deleted; your XP stays in your total |
 | Cards, guilds and edits you contributed | As long as the guild. Once other members use a card it belongs to the guild ([terms](terms.md#2-what-you-add-belongs-to-the-guild)); deleting your account takes your name off it, not the card |
 | A card you delete yourself | Gone from the guild at once. The row stays hidden, so the guild's history of edits and duplicate decisions still adds up, and is erased with your account |
 | A picture on a card or a banner | As long as any wording of the card, or the guild, points at it |
