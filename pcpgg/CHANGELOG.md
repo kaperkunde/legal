@@ -68,6 +68,14 @@ submodule pointer bumped in the app (`pnpm legal:sync` there) before it reaches 
 
 ---
 
+## [pcpgg-terms-2026.2] — 2026-11-23
+
+**Effective date:** 23 November 2026
+
+- §11: removed the link to the EU online dispute-resolution platform, which closed in July 2025
+
+---
+
 ## [pcpgg-terms-2026.1] — 2026-10-06
 
 **Effective date:** 6 October 2026

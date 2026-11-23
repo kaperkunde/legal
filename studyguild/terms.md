@@ -1,8 +1,9 @@
 # Study Guild Terms of Use
 
-**Effective date:** 28 September 2026  
+**Effective date:** 23 November 2026  
 **Provider:** Kaperkunde  
 **KVK number:** 42061326  
+**VAT number:** NL005465494B06  
 **Address:** Prof. E.M. Meijerslaan 1, Amstelveen, The Netherlands  
 **Website:** [https://studyguild.my](https://studyguild.my)  
 **Support:** support@kaperkun.de  
@@ -28,20 +29,25 @@ keep your email address current, since it is how you sign in and how we reach yo
 Study Guild is free. There is nothing to buy, and if that ever changes, nobody is charged
 without being asked first.
 
+Study Guild is still being tested: see [§5](#5-it-is-offered-as-it-is).
+
 ---
 
 ## 2. What you add belongs to the guild
 
-A guild is a shared deck. Anyone signed in can add a card to it or improve any card's wording,
-and everyone can read it, signed in or not: guilds are public pages on the open web, listed for
+A guild is a shared deck. Anyone signed in can add a card to it. To improve another member's
+card you need to be in the guild and to have studied on 7 days. Everyone can read it, signed in or not: guilds are public pages on the open web, listed for
 search engines and offered to the assistants members connect. That is what makes them worth
 joining, and it means that adding a card is publishing it.
 
 **You keep your rights.** Writing a card gives Kaperkunde no ownership of it. What you give, by
-adding a card, a picture, a guild or an edit, is permission: to Kaperkunde, to store it and
-publish it as part of Study Guild — on the site, in its feeds for search engines and
-assistants, and in copies and backups — for as long as Study Guild exists, without payment,
-anywhere in the world; and to every member, to study it, hold a wording of it in their stack,
+adding a card, a picture, a banner, a guild or an edit, is a non-exclusive permission: to
+Kaperkunde, to host, store, copy, back up, display and process it as part of Study Guild
+(including cropping and re-encoding pictures, reformatting text, and turning text into the
+numbers the duplicate check compares, which the providers named in the
+[subprocessor list](subprocessors.md) may handle for us), and to publish it on the site, in its
+feeds for search engines and assistants, and to the assistants members connect, for as long as
+Study Guild exists, without payment, anywhere in the world; and to every member, to study it, hold a wording of it in their stack,
 vote on it and improve it. That permission is what a guild runs on, and it cannot be taken back
 for a card the guild has taken up.
 
@@ -59,7 +65,7 @@ different fact, not a better phrasing — is refused, and only the card's author
 links or pictures.
 
 **Add only what you may.** Put into a guild only your own words and pictures, or material you
-have the right to share this way. Do not add anybody's personal details, yours included: a
+have the right to share this way, and by adding it you confirm that you do. Do not add anybody's personal details, yours included: a
 guild is not the place for them, and once a card is the guild's it cannot be taken back the
 way a private note could.
 
@@ -88,31 +94,46 @@ apply to you.
 
 ## 4. Reports, and what we do about them
 
-If a card, a guild or a member breaks these rules or the law, tell **abuse@kaperkun.de**, with
-a link to it and a line on why. A person reads it and looks. Something that plainly should not
-be there is removed, and something that should stays; either way the person who reported it
-hears what we decided, and so does the member it concerns, with the reason. If you think we got
-it wrong, say so in reply, and a person looks again.
+If a card, a guild, a picture, a banner or a member breaks these rules or the law, tell
+**abuse@kaperkun.de**, with a link to it and a line on why; the
+[notice-and-action policy](../notice-and-action.md) says what helps us act quickly, how
+copyright complaints go, and who authorities write to. You can also mark a card as a bad card
+from its menu: that gives a reason, counts as a downvote, and is shown to others only as a
+count, never with your name. A person reads every report and looks.
 
-We may hide or remove a card, a guild or a wording, and suspend or close an account, when that
-is what these rules or the law call for. We will say why, unless the law forbids it.
+What we can do about something: hide or delete a card, a wording, a picture, a banner or a
+guild, limit what an account can do, or suspend or close it, when these rules or the law call
+for it. Each time, the member concerned and the person who reported it are told what we did,
+the facts and the rule behind it, and whether anything automatic played a part, as the
+notice-and-action policy sets out. If you think we got it wrong, say so in reply, and a person
+looks again.
+
+Some things happen without a person: the duplicate check turns away a card that asks what an
+existing card asks, and the edit check refuses an edit that changes what a card teaches. They
+compare words and meaning, not people, and you can say a card is different and try again.
 
 ---
 
 ## 5. It is offered as it is
 
-Study Guild is free, and it is offered as it is. We try to keep it up and to keep your work
-safe, but there is no warranty of any kind and no promise of availability, and to the extent
-the law allows, Kaperkunde is not liable for what you lose by relying on it. Cards are study
-material written by members: we do not check that they are right, and the ranks are a game,
-not a certificate. If you would be sorry to lose something, ask for a copy — the
-[privacy notice](privacy.md#taking-it-with-you-or-taking-it-down) says how.
+Study Guild is free, and it is offered as it is. It is still being tested, so it will have
+bugs, may be down when you want it, and may lose data. We try to keep it up and to keep your
+work safe, but there is no warranty of any kind and no promise of availability, and to the
+extent the law allows, Kaperkunde is not liable for what you lose by relying on it. Cards are
+study material written by members: we do not check that they are right, and the ranks are a
+game, not a certificate. If you would be sorry to lose something, download your data from
+Settings; the [privacy notice](privacy.md#taking-it-with-you-or-taking-it-down) says how.
+
+**The beta.** beta.studyguild.my is a second front door to the same service, running newer and
+less tried versions of the site against the same accounts and data. What you do there is real,
+and a bug there can affect the same cards and training you see on studyguild.my. See also
+[the company-wide note](../privacy.md#18-services-in-alpha-or-beta).
 
 ---
 
 ## 6. Ending it
 
-You can stop at any time: leave a guild from its page, and ask us to delete your account. What
+You can stop at any time: leave a guild from its page, and delete your account from Settings (or ask us to). What
 you contributed stays with its guilds where §2 says it does, and everything else goes with you.
 We can close an account that is breaking the rules above, and we will say why. If Study Guild
 itself ever shuts down, everyone signed up hears about it with enough notice to take their
@@ -137,7 +158,6 @@ questions about these terms to **legal@kaperkun.de**, and anything about your da
 
 Dutch law applies, and Study Guild is run by [Kaperkunde](https://kaperkunde.com), whose
 details are at the top of this page. If you are a consumer, nothing here takes away the
-protection the law of the country you live in gives you, and the European Commission's
-dispute-resolution platform is at
-[https://ec.europa.eu/consumers/odr](https://ec.europa.eu/consumers/odr), as
-[§17 of the Privacy Policy](../privacy.md#17-online-dispute-resolution-consumers) notes.
+protection the law of the country you live in gives you; see
+[§17 of the Privacy Policy](../privacy.md#17-online-dispute-resolution-consumers) on resolving
+a dispute.

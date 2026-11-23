@@ -1,6 +1,6 @@
 # pcp.gg Terms of Use
 
-**Effective date:** 6 October 2026  
+**Effective date:** 23 November 2026  
 **Provider:** Kaperkunde, trading as **pcp.gg**  
 **KVK number:** 42061326  
 **Address:** Prof. E.M. Meijerslaan 1, Amstelveen, The Netherlands  
@@ -209,7 +209,6 @@ each of them, and you hear back.
 
 Dutch law applies, and pcp.gg is a trade name of [Kaperkunde](https://kaperkunde.com), whose
 details are at the top of this page. If you are a consumer, nothing here takes away the
-protection the law of the country you live in gives you, and the European Commission's
-dispute-resolution platform is at
-[https://ec.europa.eu/consumers/odr](https://ec.europa.eu/consumers/odr), as
-[§17 of the Privacy Policy](../privacy.md#17-online-dispute-resolution-consumers) notes.
+protection the law of the country you live in gives you; see
+[§17 of the Privacy Policy](../privacy.md#17-online-dispute-resolution-consumers) on resolving
+a dispute.

@@ -22,8 +22,54 @@ git show studyguild-privacy-2026.1:studyguild/privacy.md
 On GitHub: `https://github.com/kaperkunde/legal/releases/tag/<tag-name>`
 
 When publishing a new version, commit the change, create the tag, push both, and add an entry
-below. Study Guild pins this repository as a submodule, so a published change also needs the
-submodule pointer bumped in the app (`pnpm legal:sync` there) before it reaches the site.
+below. Every push to `main` publishes the documents as `@kaperkunde/legal-docs`, and Study
+Guild picks the new version up as a dependency update (Renovate), so nothing else needs bumping.
+
+---
+
+## [studyguild-privacy-2026.2] — 2026-11-23
+
+**Effective date:** 23 November 2026
+
+- Says exactly what is public (XP, level, streak, best streak, guild memberships with per-guild
+  XP, Contribution Points, feats, member since, the XP and contributor leaderboards, card pages
+  with their history and per-reason feedback counts, never who gave it) and what is private
+  (per-card progress, sessions, hidden cards, votes, reports made, email, full name, time zone)
+- "What we hold": feats, banners and banner votes, hidden cards, reports, last visit and
+  notification state; retention row for a guild you left (30 days) and for reports
+- Cookies named precisely: the sign-in cookie and `sg_invite` (invite code only, 30 days)
+- Email described in two classes, essential account mail and optional study notifications with
+  a switch each and one-click unsubscribe; still no marketing mail
+- Connector section: name and email, staying connected, and acting for you, now including
+  starting or resuming a study session and recording answers
+- Export and deletion are Settings buttons first, email second; deletion rules unchanged
+- A paragraph on the beta front door and its shared accounts and data
+- Hetzner located in Falkenstein, Germany; VAT number added to the header
+- Short statement of legal bases; rate-limit wording corrected
+
+---
+
+## [studyguild-terms-2026.2] — 2026-11-23
+
+**Effective date:** 23 November 2026
+
+- §1, §5: still being tested, may lose data, and the beta shares data with the main site
+- §2: licence made non-exclusive and explicit about hosting, adapting (cropping, re-encoding,
+  embeddings) and service providers, and extended to banners; editing another member's card
+  needs guild membership and 7 study days; a confirmation that you may share what you add
+- §4: reports and decisions aligned with the new shared Notice-and-Action Policy (hide or
+  remove cards, pictures, banners and guilds, limit or suspend accounts; reasons to both
+  parties); automatic duplicate and edit checks described
+- §6: delete the account from Settings; §8: the closed EU ODR platform no longer linked
+- VAT number added to the header
+
+---
+
+## [studyguild-subprocessors-2026.2] — 2026-11-23
+
+**Effective date:** 23 November 2026
+
+- Hetzner located in Falkenstein, Germany; VAT number added to the header
 
 ---
 
