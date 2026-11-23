@@ -8,7 +8,7 @@ This repository is the source of truth for terms, privacy notices, and related p
 
 ## Current documents
 
-**Effective date: 6 October 2026**
+**Effective date: 23 November 2026**
 
 | Document | Description |
 |----------|-------------|
@@ -18,6 +18,7 @@ This repository is the source of truth for terms, privacy notices, and related p
 | [Study Guild documentation](studyguild/README.md) | Privacy Notice, Terms of Use, and Subprocessor List for the Study Guild shared flashcard community |
 | [pcp.gg documentation](pcpgg/README.md) | Terms of Use, Privacy Notice, and Subprocessor List for [pcp.gg](https://pcp.gg), the bridge that gives an owner's own PCP a public name |
 | [PCP documentation](pcp/README.md) | Terms of Use and Privacy Notice for PCP, the self-hosted MCP gateway Kaperkunde publishes as open source |
+| [AJ documentation](aj/README.md) | Terms of Use for AJ, the AI DJ for parties; its privacy notice and subprocessors are §2.5 and §5.4 of the Privacy Policy |
 
 ### Privacy Policy — table of contents
 
@@ -79,6 +80,16 @@ Full section index: [studyguild/README.md](studyguild/README.md)
 
 Full section index: [pcpgg/README.md](pcpgg/README.md)
 
+### AJ documents
+
+| Document | Path |
+|----------|------|
+| Terms of Use | [aj/terms.md](aj/terms.md) |
+| Privacy (what AJ holds) | [privacy.md §2.5](privacy.md#25-aj) |
+| Subprocessors | [privacy.md §5.4](privacy.md#54-aj) |
+
+Full section index: [aj/README.md](aj/README.md)
+
 ### PCP documents
 
 | Document | Path |
@@ -99,6 +110,10 @@ only what is particular to it — what that product keeps, who it depends on, an
 A product's notice adds detail to the company-wide policy. It never takes away a right the
 policy gives. Adding a product means copying the shape of an existing folder: a `README.md`
 index, the documents themselves, and a `CHANGELOG.md` with its own tag prefix.
+
+A product whose privacy notice would only repeat the company-wide one, such as AJ, keeps what it
+holds and who it relies on as a section of the [Privacy Policy](privacy.md) instead, and its
+folder holds its terms alone.
 
 Software Kaperkunde publishes as open source but does not run, such as PCP, has a folder too. There
 the documents say who is responsible when somebody else runs it, and have no subprocessor list,

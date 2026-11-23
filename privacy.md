@@ -1,6 +1,6 @@
 # Kaperkunde Privacy Policy
 
-**Effective date:** 6 October 2026  
+**Effective date:** 23 November 2026  
 **Controller:** Kaperkunde  
 **KVK number:** 42061326  
 **VAT number:** NL005465494B06  
@@ -10,7 +10,7 @@
 **Privacy/GDPR requests:** privacy@kaperkun.de  
 **Legal notices:** legal@kaperkun.de  
 
-This Privacy Policy explains how Kaperkunde handles personal data when you visit our websites (including [kaperkun.de](https://kaperkun.de), kaperkunde.com, kaperkunde.nl, and godutch.us), create an account, comment, subscribe, contact us, or use one of our applications and services — **[plek.je](https://plek.je)** managed hosting, **Lore Spawner** collaborative storytelling, **Study Guild** shared flashcards, or **[pcp.gg](https://pcp.gg)**, the bridge that gives the PCP on your own computer a public name.
+This Privacy Policy explains how Kaperkunde handles personal data when you visit our websites (including [kaperkun.de](https://kaperkun.de), kaperkunde.com, kaperkunde.nl, and godutch.us), create an account, comment, subscribe, contact us, or use one of our applications and services — **[plek.je](https://plek.je)** managed hosting, **Lore Spawner** collaborative storytelling, **Study Guild** shared flashcards, **[pcp.gg](https://pcp.gg)**, the bridge that gives the PCP on your own computer a public name, or **AJ**, the AI DJ for parties.
 
 This Policy is the company-wide one and applies to everything Kaperkunde runs. Each product also publishes a short notice of its own covering what that product holds, who it relies on, and how long it keeps things; where the two speak to the same question, the product notice is the more specific answer.
 
@@ -40,6 +40,7 @@ This Policy applies if you:
 - sign up for or use **Lore Spawner**, or receive an invitation to join someone there
 - sign up for or use **Study Guild**, add cards to one of its guilds, or open a member's invitation to a guild there
 - join the waitlist for, sign up for, or use **[pcp.gg](https://pcp.gg)**
+- join the waitlist for, sign up for, or host a party on **AJ**, or join a party there as a guest
 
 ---
 
@@ -87,8 +88,147 @@ Some of what a product holds only makes sense in that product — the devices yo
 | **Lore Spawner** | [lorespawner/privacy.md](lorespawner/privacy.md) |
 | **Study Guild** | [studyguild/privacy.md](studyguild/privacy.md) |
 | **[pcp.gg](https://pcp.gg)** | [pcpgg/privacy.md](pcpgg/privacy.md) |
+| **AJ** | §2.5 below, and the [AJ Terms of Use](aj/terms.md) |
 
 Those notices add detail. They never take away a right this Policy gives you.
+
+### 2.5 AJ
+
+AJ, the AI DJ for parties, has no notice of its own: this section is it. Its terms are the
+[AJ Terms of Use](aj/terms.md). Kaperkunde is the controller for everything below. Everything
+else in this Policy — your rights, transfers, security, the minimum age — applies to AJ as it
+does to every Kaperkunde service.
+
+**Hosts** are people with an AJ account. **Guests** join a host's party from their phone with a
+code, give a name for the party, and have no account.
+
+#### What AJ holds
+
+- **A host's account.** Name, email address and password (stored hashed, so nobody at Kaperkunde
+  can read it), or sign-in by emailed link instead. Sign-in sessions, email verification, password
+  reset and sign-in link records sit alongside it, with whether the account is still on the
+  waitlist and the invite code it came in with, if any. Each sign-in session records the
+  internet address and browser it was made from, so a host can tell their sessions apart; it
+  goes when the session ends.
+- **The waitlist.** The email address of anybody who asked to be told when there is room.
+- **Parties.** Each party's name, what the host told the DJ, the artists and genres the host ruled
+  out, the party's settings and join code, and which device is playing the music (a random id
+  and the label the device gave itself).
+- **Guests.** The name a guest gave for a party, when they joined and were last seen, and
+  whether the host removed them. A guest's phone keeps a random device id, in a signed cookie
+  and in the browser's storage; AJ uses it to recognise the device next time and to remember
+  which songs, artists and genres it liked or disliked across parties, so the DJ can play to the
+  room. It is tied to no account, email or name until the guest makes an account themselves.
+- **What happens in a party.** Chat messages with the name of whoever wrote them, votes and
+  reactions, the songs asked for, queued and played, and who added each.
+- **What the DJ did.** A log of the DJ's actions with the reason it gave, and a record of each
+  time it looked at the room: when, why (a chat message, a vote, or a queue running low, with
+  the guest whose message prompted it), how it went and what it cost.
+- **Spoken breaks.** The text of each line the DJ speaks, and its audio.
+- **The cost of the AI.** A line per AI call: which host and party it was for, what kind of work
+  it was, the model, the tokens or characters used and what it cost. It holds nothing of what was
+  said. The host's token balance as the Token Center last reported it, and the host's choice of
+  model and voice.
+- **DJ transcripts, for fixing it.** A copy of each time the DJ looked at the room: what it was
+  sent — the party's instructions, the recent chat with names, votes and the queue — and what it
+  answered. These sit in a temporary folder on the server, never in the database.
+- **Music searches.** The words typed into a song search, with what the music service answered,
+  so the same search does not cost the service's quota twice.
+- **Assistants and screens a host connects.** If a host allows an AI assistant to act as the DJ
+  over OAuth, the record of what they allowed and its access tokens; if a host signs a TV in by
+  QR code, the short-lived code that did it.
+- **Ordinary server logs.** AJ shares its server, and the web proxy in front of it, with other
+  Kaperkunde services. The proxy keeps an ordinary log of the requests it answers: the internet
+  address, the time, the address asked for, the answer and the browser. Beyond a host's sign-in
+  sessions, AJ's own code keeps no record of internet addresses; it counts requests per address
+  in memory, for a minute, to stop floods.
+
+There is no analytics, advertising, tracking or profiling in AJ beyond the guest's taste list
+above, which exists only so the DJ plays what the room likes.
+
+#### Why
+
+A host's account, their parties, and what is said and played in them are what the service a host
+signs up for is made of, and a guest's name and messages are what joining a party is — so both
+rest on our contract with you. The guest's device id and taste list, the DJ's log and
+transcripts, music searches and the server logs rest on our legitimate interest in a DJ that
+remembers what the room likes, in finding out why the DJ did something odd, in not running out of
+a music service's quota, and in keeping the service up and safe. You can object to any of those:
+ask, and we stop.
+
+#### The AI, and what it is told
+
+AJ's DJ is an AI model, and AJ tells everyone so: the guest's join screen, the host's sign-up and
+the [terms](aj/terms.md#1-you-are-talking-to-an-ai) say that the DJ is an AI and that its voice
+is synthetic.
+
+To pick music and answer the chat, the DJ is sent the party's name and the host's instructions,
+what has been played and voted on, the recent chat with the names of whoever wrote it, and what
+the guests' devices have liked before. To speak, the text of each line is sent to a
+text-to-speech model, and a line may name a guest it is talking to. Both models are run for AJ
+through Kaperkunde's own Token Center, which passes the request on to the provider named in
+§5.4 and keeps a record of what it cost. Neither provider may use what AJ sends to train its
+models, and Kaperkunde trains nothing on it either.
+
+The DJ decides what to play and what to say. It makes no decision about anybody with legal or
+similarly significant effect: the worst it can do is play a song you do not like.
+
+To help it choose, the DJ looks songs up in public music databases (see §5.4). What it sends
+them is a song's title and artist, or a few words a guest quoted when asking for "the one that
+goes…" — never a name or an account.
+
+#### Music services
+
+AJ uses the **YouTube API Services** to find music videos, and YouTube's embedded player to play
+them. Using AJ with YouTube means agreeing to the
+[YouTube Terms of Service](https://www.youtube.com/t/terms), and what Google does with data is
+in the [Google Privacy Policy](https://policies.google.com/privacy). AJ searches YouTube with its
+own key, sending only the words searched for; it never signs in to a Google account and never
+reads anything from one, so there is no access to take back. When the device playing the music
+uses YouTube, it loads YouTube's player straight from Google, which sets its own cookies on that
+device under Google's policy and may show advertisements. What YouTube answered a search with is
+kept for seven days.
+
+**Apple Music** plays through MusicKit on the device playing the music, signed in to the host's
+own Apple Music subscription. That sign-in is between the host's browser and Apple: AJ never sees
+the host's Apple ID or password. Apple's own privacy policy applies to it.
+
+Guests' phones load neither service.
+
+#### How long
+
+| What | How long |
+|---|---|
+| A host's account, parties, and everything voted on and played in them | Until the host deletes the party, or the account, which deletes all of it at once |
+| The record of what the AI cost, and the host's AI choices | As long as the host's account |
+| The waitlist | Until the address is admitted and the account deleted, or until you ask us to remove it |
+| Chat messages | 90 days after each message was sent, then it is deleted, whether or not the party is still there |
+| A guest's name in a party, and their votes | As long as the host keeps the party or the account, or until the guest asks us to remove them |
+| A guest's device id and taste list, with no account | 90 days after the device was last used in AJ; then it is deleted |
+| A guest's taste list, once they make an account | As long as that account |
+| Spoken breaks (text and audio) | 24 hours |
+| DJ transcripts | 48 hours, and they are gone sooner whenever the app restarts |
+| Music searches | 7 days |
+| Sign-in by QR code | Minutes: the code expires |
+| Server logs | Until the server's logs are rotated |
+
+Deleted data may remain in backups until those expire or are overwritten.
+
+#### Your choices
+
+- **A host can delete a party** from the parties page in AJ, with its guests, chat, votes,
+  queue and history.
+- **A host can delete their account** from the parties page in AJ, confirmed by an emailed link. That deletes the account, its
+  parties and everything in them — guests' names, chat, votes, the queue, the DJ's log and its
+  spoken breaks — and the host's own taste list, at once. A token balance is held by the Token
+  Center rather than by AJ; ask **privacy@kaperkun.de** to have that closed as well.
+- **A guest** can ask **privacy@kaperkun.de**, with the party's code and the name they used, to
+  have their name, messages and votes removed from a party, or their device's taste list
+  deleted. Clearing the browser's storage and cookies for AJ makes a device a stranger to it at
+  once.
+- **A copy of your data** goes to whoever asks **privacy@kaperkun.de**, in a machine-readable
+  form, within 30 days.
+- The rights in §9 apply in full.
 
 ---
 
@@ -134,7 +274,7 @@ For **[plek.je](https://plek.je)**, we also do not use hosted customer content f
 
 We use carefully selected subprocessors bound by appropriate contractual obligations.
 
-Each product publishes its own list as well, since what a product depends on is particular to it: [plek.je](hosting/subprocessors.md), [Lore Spawner](lorespawner/subprocessors.md), [Study Guild](studyguild/subprocessors.md) and [pcp.gg](pcpgg/subprocessors.md).
+Each product publishes its own list as well, since what a product depends on is particular to it: [plek.je](hosting/subprocessors.md), [Lore Spawner](lorespawner/subprocessors.md), [Study Guild](studyguild/subprocessors.md) and [pcp.gg](pcpgg/subprocessors.md). AJ's are in §5.4.
 
 ### 5.1 When Kaperkunde is controller
 
@@ -161,6 +301,34 @@ Lore Spawner and Study Guild offer the same kind of connection. Each product's o
 
 ---
 
+### 5.4 AJ
+
+Everyone other than Kaperkunde who touches AJ data, and what each one is for:
+
+| Subprocessor | Purpose | What it receives | Location / notes |
+|---|---|---|---|
+| **Hetzner Online GmbH** | The server AJ runs on: the application, the database and outbound mail | Everything stored, as the host of any server does | Germany, European Union. The only processor with access to stored data. |
+| **Anthropic, PBC** | The AI model that is the DJ | For each time the DJ looks at the room: the party's name and the host's instructions, what has played and been voted on, the recent chat with the names of whoever wrote it, and the room's taste | United States, through Kaperkunde's Token Center. Under Anthropic's commercial terms, what it receives through its API is not used to train its models. A transfer outside the EEA under the safeguards in §6. |
+| **OpenAI, L.L.C.** | Text-to-speech: the DJ's synthetic voice | The text of each line the DJ speaks, which may include a guest's name | United States, through Kaperkunde's Token Center. Under OpenAI's API terms, what it receives is not used to train its models. A transfer outside the EEA under the safeguards in §6. |
+| **Stripe** | Taking payment when a host buys AJ tokens | As in §5.1 | As in §5.1 |
+
+The **Token Center** (tokens.kaperkun.de) is Kaperkunde's own service, which runs the AI models
+for Kaperkunde's apps and holds each host's token balance; it is not a subprocessor. It passes
+each call to the provider above, and keeps the host's account id and verified email address, and
+a record of each call and what it cost, so the balance can be charged.
+
+**Reached on your behalf, and not processors of ours:**
+
+- **Apple** (Apple Music) and **Google** (YouTube), whose players run on the device playing the
+  music, under their own terms and privacy policies, and whose catalogues AJ searches with the
+  words typed into a search. See §2.5.
+- **MusicBrainz and ListenBrainz** (the MetaBrainz Foundation), **Deezer**, **LRCLIB** and
+  **Genius**, public music databases the DJ looks songs up in. They receive a song's title and
+  artist, or a few words a guest quoted, through a gateway Kaperkunde runs on its own hardware —
+  never a name, an account or an internet address of yours.
+- **An AI assistant a host connects** to act as the DJ. That is the host's relationship with
+  whoever makes it, as in §5.3.
+
 ## 6. International transfers
 
 For **[plek.je](https://plek.je)** hosting customers, Kaperkunde offers a choice of dedicated hosting infrastructure in the European Union or the United States, selected by you for each hosted site. Data for your hosted site is processed on infrastructure in the region you select and is not moved to the other region without your instruction. Details are in the [Terms of Service](hosting/tos.md#a8-international-transfers).
@@ -182,6 +350,14 @@ No online service can guarantee absolute security. You remain responsible for se
 ### 8.1 Kaperkunde websites and applications
 
 Our websites and applications use only cookies that are strictly necessary to provide what you asked for — for example, keeping you signed in to your account. We do not use analytics, advertising, or tracking cookies, so no cookie consent banner is needed anywhere on our own properties. If that ever changes, we will describe the cookies in a notice on those sites and ask for consent where required before any non-essential cookie is placed.
+
+**AJ** keeps a host signed in with a session cookie, and recognises a guest's phone with a
+signed cookie and a random id in the browser's storage, which also holds the name the guest last
+used and the music service last chosen on that device. All of them are needed for what you asked
+AJ to do. On the device that plays the music, Apple's MusicKit keeps the host's Apple Music
+sign-in in the browser's storage, and YouTube's player sets Google's own cookies; those are
+Apple's and Google's, under their own policies, and are set only on a device the host chose to
+play the music from that service (see §2.5).
 
 ### 8.2 Hosted customer websites
 
