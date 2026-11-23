@@ -13,7 +13,8 @@ Product-specific documents have changelogs of their own:
 [lorespawner/CHANGELOG.md](lorespawner/CHANGELOG.md) (`lorespawner-privacy-`, `lorespawner-terms-`, `lorespawner-subprocessors-`)
 [studyguild/CHANGELOG.md](studyguild/CHANGELOG.md) (`studyguild-privacy-`, `studyguild-terms-`, `studyguild-subprocessors-`)
 [pcpgg/CHANGELOG.md](pcpgg/CHANGELOG.md) (`pcpgg-privacy-`, `pcpgg-terms-`, `pcpgg-subprocessors-`)
-and [pcp/CHANGELOG.md](pcp/CHANGELOG.md) (`pcp-privacy-`, `pcp-terms-`).
+[pcp/CHANGELOG.md](pcp/CHANGELOG.md) (`pcp-privacy-`, `pcp-terms-`)
+and [aj/CHANGELOG.md](aj/CHANGELOG.md) (`aj-terms-`).
 
 ### View a tagged version
 
@@ -25,6 +26,27 @@ git show privacy-2026.2:privacy.md
 On GitHub: `https://github.com/kaperkunde/legal/releases/tag/<tag-name>`
 
 When publishing a new version, commit the change, create the tag, push both, and add an entry below.
+
+---
+
+## [privacy-2026.12] — 2026-11-23
+
+**Effective date:** 23 November 2026
+
+- Scope: named AJ, the AI DJ for parties, in the introduction and in §1, covering hosts, the
+  waitlist and guests who join a party without an account
+- §2.4: added the AJ row, pointing at §2.5 and the [AJ Terms of Use](aj/terms.md)
+- §2.5 (new): AJ's notice, kept in this Policy rather than a file of its own: what AJ holds about
+  hosts and guests, why, what the AI is told and that the DJ and its voice are an AI, the YouTube
+  API Services disclosure with links to the YouTube Terms of Service and Google Privacy Policy,
+  Apple Music, retention per category, and how a host deletes their account and a guest has
+  their data removed
+- §5: pointed at §5.4 for AJ
+- §5.4 (new): AJ's subprocessors — Hetzner; Anthropic and OpenAI through Kaperkunde's Token
+  Center; Stripe for token purchases — the Token Center named as Kaperkunde's own service, and
+  the music services and music databases named as reached on a user's behalf, not processors
+- §8.1: AJ's session and device cookies and browser storage, and the music players' own
+  cookies and storage on the device that plays the music
 
 ---
 
