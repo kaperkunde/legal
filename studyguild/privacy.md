@@ -145,11 +145,12 @@ uploaded for a card that was never saved is deleted after a day.
 ### Rate limits
 
 To keep one runaway script from spoiling the site for everyone, we count requests to the
-sign-in pages by IP address, and the sign-in and reset emails sent to one address, over the last
-minute or hour. These counts live in memory and are gone as soon as the window passes; they are
-never written down. How many cards and guilds you
-may add in a day is worked out from the cards and guilds you have already added, so it needs
-nothing more than that.
+sign-in pages by IP address, and the sign-in and reset emails asked for one email address, over
+the last minute, hour or day. For the email address we hold only a hash of it, and a daily
+count may combine that hash with the IP address. These counts live in memory for at most a day
+and are gone as soon as the window passes; they are never written to the database. How many
+cards and guilds you may add in a day is worked out from the cards and guilds you have already
+added, so it needs nothing more than that.
 
 ---
 
