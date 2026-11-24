@@ -1,6 +1,6 @@
 # Study Guild Terms of Use
 
-**Effective date:** 23 November 2026  
+**Effective date:** 24 November 2026  
 **Provider:** Kaperkunde  
 **KVK number:** 42061326  
 **VAT number:** NL005465494B06  
@@ -119,17 +119,22 @@ compare words and meaning, not people, and you can say a card is different and t
 
 ## 5. It is offered as it is
 
-Study Guild is free, and it is offered as it is. It is still being tested, so it will have
-bugs, may be down when you want it, and may lose data. We try to keep it up and to keep your
-work safe, but there is no warranty of any kind and no promise of availability, and to the
-extent the law allows, Kaperkunde is not liable for what you lose by relying on it. Cards are
+Study Guild is free, and it is provided as it is, to be used at your own risk. It is still
+being tested, so it will have bugs, may be down when you want it, and may lose data. We do not
+promise to keep your data, to back it up or to restore it, on studyguild.my or on the beta, and
+there is no warranty of any kind and no promise of availability. To the extent the law allows,
+Kaperkunde is not liable for what you lose by relying on it; nothing here limits liability
+that the law does not allow to be limited, such as for intent or gross negligence. Cards are
 study material written by members: we do not check that they are right, and the ranks are a
-game, not a certificate. If you would be sorry to lose something, download your data from
-Settings; the [privacy notice](privacy.md#taking-it-with-you-or-taking-it-down) says how.
+game, not a certificate.
 
-**The beta.** beta.studyguild.my is a second front door to the same service, running newer and
-less tried versions of the site against the same accounts and data. What you do there is real,
-and a bug there can affect the same cards and training you see on studyguild.my. See also
+You can download your data at any time from Settings ("Download my data"), and we encourage
+you to keep a copy of anything you would be sorry to lose. The
+[privacy notice](privacy.md#taking-it-with-you-or-taking-it-down) says what it contains.
+
+**The beta.** beta.studyguild.my uses the same account and data as studyguild.my, with newer
+features that may have bugs. What you do there is real, and a bug there can affect the same
+cards and training you see on studyguild.my. It comes with no promise beyond these terms. See also
 [the company-wide note](../privacy.md#18-services-in-alpha-or-beta).
 
 ---

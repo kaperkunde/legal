@@ -27,6 +27,38 @@ Guild picks the new version up as a dependency update (Renovate), so nothing els
 
 ---
 
+## [studyguild-privacy-2026.3] — 2026-11-24
+
+**Effective date:** 24 November 2026
+
+- Says where copies exist: Hetzner's automatic server snapshots (seven daily, kept about seven
+  days, in Germany), as a fact and not a promise to restore; deleted data can remain in them
+  for about that long
+- Beta paragraph: no promise to keep, back up or restore data on either site
+- Logs described as they are: application logs only (errors and job outcomes), no access log,
+  none sent elsewhere, limited by size and gone at the next deploy, no fixed period
+
+---
+
+## [studyguild-terms-2026.3] — 2026-11-24
+
+**Effective date:** 24 November 2026
+
+- §5: free, provided as it is and at your own risk; no promise to keep, back up or restore data,
+  on the main site or the beta; download from Settings and keep your own copy; liability limited
+  only to the extent the law allows (not for intent or gross negligence); the beta uses the
+  same account and data with newer features that may have bugs and carries no extra promise
+
+---
+
+## [studyguild-subprocessors-2026.3] — 2026-11-24
+
+**Effective date:** 24 November 2026
+
+- Hetzner's row names the automatic server snapshots
+
+---
+
 ## [studyguild-privacy-2026.2] — 2026-11-23
 
 **Effective date:** 23 November 2026

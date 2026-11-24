@@ -1,6 +1,6 @@
 # Study Guild Privacy Notice
 
-**Effective date:** 23 November 2026  
+**Effective date:** 24 November 2026  
 **Controller:** Kaperkunde  
 **KVK number:** 42061326  
 **VAT number:** NL005465494B06  
@@ -116,8 +116,10 @@ yours or anybody else's, and nothing you need to keep private.
 - **Assistants you connect.** How the app described itself when it asked for access, what you
   allowed it to do and when, and the access tokens it holds, stored hashed, so a copy of our
   database would not let anyone act as you.
-- **Ordinary server logs.** Requests to the site, with IP address and timestamp, kept briefly
-  so we can fix things that break and stop people abusing the service.
+- **Application logs.** What the app writes while it runs: errors and the outcome of its
+  scheduled jobs, so we can fix things that break. They can name a member by internal id and, in
+  a mail error, an email address. There is no access log of requests, and the logs are not sent
+  to any other service.
 
 That is the whole list. There is no analytics, no advertising, no tracking pixel and no
 profiling of you anywhere in Study Guild.
@@ -195,9 +197,8 @@ shows which are on, and what time they come at, in your own zone. We send no mar
 | Who joined through whose invite link | As long as both accounts |
 | An assistant's access | Until you disconnect it, reset your password or prove your address for the first time, or while your account is suspended. Its access tokens last an hour and its refresh tokens sixty days; disconnecting stops it at once, whatever it still holds |
 | Moderation records (who acted, on what, why) | Two years |
-| Server logs | Thirty days |
+| Application logs | Limited by size (about 30 MB per container, oldest lines overwritten first) and gone when the app is next deployed; no fixed period |
 
-[//]: # "TODO(owner): confirm log rotation of 30 days is configured for the app, the proxy and the mail server (DEPLOY.md in studyguild); and choose the card-report retention in the table above."
 
 Everything else goes when the account does.
 
@@ -219,7 +220,10 @@ of (the database, the pictures, the mail server that sends your sign-in links an
 is Kaperkunde's own software running on those servers. No analytics service, no content
 delivery network, no mail provider.
 
-[//]: # "TODO(owner): Hetzner backups are off; say where database backups go (and name that provider in subprocessors.md if it is not Hetzner). Confirm the mail server is the Stalwart server on the same Hetzner server (it is believed to be)."
+**Backups.** Hetzner takes automatic snapshots of the server, which include the database and
+therefore your data: seven daily snapshots, each kept for about seven days, stored by Hetzner in
+Germany. They exist for Kaperkunde's own recovery of the servers; they are not a promise to
+restore anything for you.
 
 **One processor for the duplicate check.** A guild asks each question once, and telling "What
 is the capital of France?" from "Which city is France's capital?" takes an understanding of
@@ -305,7 +309,7 @@ edited" means another member's progress, review or vote, or an edit by another m
 stays without a founder, and is erased only if nothing of anyone else remains in it. Banners
 nobody else backs, and uploads no surviving card uses, are erased; banners others back and
 uploads on surviving cards stay, with your name taken off. Referrals you made stay, credited to
-no one. Deleted data may remain in backups until those expire or are overwritten.
+no one. Deleted data may remain in the server snapshots until they expire, about seven days later.
 
 ---
 
@@ -315,7 +319,8 @@ Study Guild is still being tested. There is a second front door, **beta.studygui
 shows newer, less tried versions of the site. It is the same service behind it: the same
 accounts, cards, guilds and training, so what you do on one you see on the other, and a mistake
 in the beta can touch the same data. Beta sends no scheduled email, keeps its own sign-in, and
-asks search engines not to list its pages. See also
+asks search engines not to list its pages. We do not promise to keep, back up or restore your
+data on either site; see the [terms](terms.md#5-it-is-offered-as-it-is) and
 [the company-wide note on services in alpha or beta](../privacy.md#18-services-in-alpha-or-beta).
 Download your data from Settings if you would be sorry to lose it.
 
