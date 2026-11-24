@@ -1,6 +1,6 @@
 # AJ Terms of Use
 
-**Effective date:** 23 November 2026  
+**Effective date:** 24 November 2026  
 **Provider:** Kaperkunde  
 **KVK number:** 42061326  
 **Address:** Prof. E.M. Meijerslaan 1, Amstelveen, The Netherlands  
@@ -151,9 +151,16 @@ host's balance. Guests never pay for anything.
   it cost no tokens, and the host's arrangement with that model's provider is theirs.
 - Tokens are a prepaid balance for AI use in Kaperkunde's apps. They are not money, cannot be
   transferred to another person, and have no cash value, except as below.
-- **If you change your mind:** unused bought tokens are refunded on request within 14 days of
-  the purchase, to the card that paid. Ask **support@kaperkun.de**. If AJ shuts down, unused
-  bought tokens are refunded too.
+- **If you change your mind:** unused bought tokens can be refunded, in full or in part, within
+  90 days of the purchase. Use the refund button on the tokens page where it offers one, or ask
+  **support@kaperkun.de**.
+  - The money goes back to the card or other payment method that paid.
+  - The refund is the share of what you paid, VAT included, that matches the unused tokens from
+    that purchase, rounded down to the cent.
+  - Tokens you spend come first from your oldest purchase, so the unused ones are from your
+    newest purchases.
+  - Free tokens are not refundable.
+  - If AJ shuts down, unused bought tokens are refunded too.
 - When a host's balance runs out, the DJ stops until there is more. The music the host has
   queued keeps playing.
 

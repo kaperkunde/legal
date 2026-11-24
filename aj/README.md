@@ -2,7 +2,7 @@
 
 Legal documentation for **AJ**, the AI DJ for parties operated by Kaperkunde.
 
-**Effective date: 23 November 2026** · [Repository overview](../README.md)
+**Effective date: 24 November 2026** · [Repository overview](../README.md)
 
 ---
 
@@ -35,7 +35,7 @@ guest's join screen both say so and link here.
 - **Guests write in a shared chat and can ask the DJ to speak**, which makes AJ a hosting
   service under the EU Digital Services Act: the restrictions on what may be said, how reports
   are handled and a point of contact have to be in its terms (§5, §6).
-- **Hosts buy AJ tokens.** §7 says what a token is and how a purchase can be undone.
+- **Hosts buy AJ tokens.** §7 says what a token is and how unused bought tokens are refunded.
 - Dutch law only lets the "offered as it is" limit of liability bind when it is in terms made
   available before the account is made.
 

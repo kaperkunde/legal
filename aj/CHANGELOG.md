@@ -26,6 +26,24 @@ publishes, so a published change reaches the site when AJ's dependency on it mov
 
 ---
 
+## [aj-terms-2026.2] — 2026-11-24
+
+To be tagged on the merge commit of this change.
+
+**Effective date:** 24 November 2026
+
+- §7: unused bought tokens can now be refunded, in full or in part, within 90 days of the purchase
+  (was: on request within 14 days), on the tokens page where it offers a refund button or by
+  asking support@kaperkun.de
+- §7: the refund goes back to the payment method that paid, and is the share of what you paid,
+  VAT included, that matches the unused tokens from that purchase, rounded down to the cent;
+  tokens are spent from the oldest purchase first; free tokens are not refundable
+- §7: unchanged: unused bought tokens are refunded if AJ shuts down
+- This change only favours users: a longer window, partial refunds and a self-service route, so
+  no notice period applies and it takes effect at once
+
+---
+
 ## [aj-terms-2026.1] — 2026-11-23
 
 Tagged on the merge commit of PR #6 (83ced67), together with `privacy-2026.12`; the package published
