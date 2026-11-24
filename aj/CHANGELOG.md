@@ -28,6 +28,9 @@ publishes, so a published change reaches the site when AJ's dependency on it mov
 
 ## [aj-terms-2026.1] — 2026-11-23
 
+Tagged on the merge commit of PR #6 (83ced67), together with `privacy-2026.12`; the package published
+before the tags existed is republished so its manifest names them.
+
 **Effective date:** 23 November 2026
 
 - Initial AJ Terms of Use, for the alpha
