@@ -1,6 +1,6 @@
 # Study Guild Subprocessor List
 
-**Effective date:** 23 November 2026  
+**Effective date:** 24 November 2026  
 **Provider:** Kaperkunde  
 **KVK number:** 42061326  
 **VAT number:** NL005465494B06  
@@ -24,10 +24,8 @@ each question once.
 
 | Subprocessor | Purpose | What it receives | Location / notes |
 |---|---|---|---|
-| **Hetzner Online GmbH** | The servers Study Guild runs on: the application, the database, card pictures and outbound mail | Everything stored, as the host of any server does | Falkenstein, Germany (European Union). The only processor with access to stored data. |
+| **Hetzner Online GmbH** | The servers Study Guild runs on: the application, the database, card pictures, outbound mail, and automatic server snapshots (seven daily, kept about seven days) | Everything stored, as the host of any server does | Falkenstein, Germany (European Union). The only processor with access to stored data. |
 | **Voyage AI Innovations, Inc.** | Text embeddings — the list of numbers that stands for a text's meaning — which the duplicate check, the "a guild like this exists" check, the edit-drift check and card search compare | The text of a card being added or edited (question and answer, formatting removed, whether or not the card is then saved), the name of a guild being founded, and the search queries an assistant runs. Never a member's name, email or account, and never a picture. | United States. Processed under Voyage AI's [Data Processing Agreement](https://www.voyageai.com/dpa), and a transfer outside the EEA under the safeguards in [§6 of the Privacy Policy](../privacy.md#6-international-transfers). Kaperkunde has opted out of Voyage AI's use of what it receives to train its models, so each text is deleted as soon as its numbers have been computed. |
-
-[//]: # "TODO(owner): Hetzner backups are off: if database backups go to another provider, add it to this table. Confirm the mail server is the owner's own Stalwart on the Hetzner server (so no mail provider is listed)."
 
 [//]: # "TODO(owner): Voyage AI: confirm the contracting entity, that the DPA is accepted, whether the US transfer relies on the Data Privacy Framework or on standard contractual clauses (name it in the Voyage row), and that the training opt-out is on."
 

@@ -1,6 +1,6 @@
 # Study Guild Privacy Notice
 
-**Effective date:** 23 November 2026  
+**Effective date:** 24 November 2026  
 **Controller:** Kaperkunde  
 **KVK number:** 42061326  
 **VAT number:** NL005465494B06  
@@ -219,7 +219,10 @@ of (the database, the pictures, the mail server that sends your sign-in links an
 is Kaperkunde's own software running on those servers. No analytics service, no content
 delivery network, no mail provider.
 
-[//]: # "TODO(owner): Hetzner backups are off; say where database backups go (and name that provider in subprocessors.md if it is not Hetzner). Confirm the mail server is the Stalwart server on the same Hetzner server (it is believed to be)."
+**Backups.** Hetzner takes automatic snapshots of the server, which include the database and
+therefore your data: seven daily snapshots, each kept for about seven days, stored by Hetzner in
+Germany. They exist for Kaperkunde's own recovery of the servers; they are not a promise to
+restore anything for you.
 
 **One processor for the duplicate check.** A guild asks each question once, and telling "What
 is the capital of France?" from "Which city is France's capital?" takes an understanding of
@@ -305,7 +308,7 @@ edited" means another member's progress, review or vote, or an edit by another m
 stays without a founder, and is erased only if nothing of anyone else remains in it. Banners
 nobody else backs, and uploads no surviving card uses, are erased; banners others back and
 uploads on surviving cards stay, with your name taken off. Referrals you made stay, credited to
-no one. Deleted data may remain in backups until those expire or are overwritten.
+no one. Deleted data may remain in the server snapshots until they expire, about seven days later.
 
 ---
 
@@ -315,7 +318,8 @@ Study Guild is still being tested. There is a second front door, **beta.studygui
 shows newer, less tried versions of the site. It is the same service behind it: the same
 accounts, cards, guilds and training, so what you do on one you see on the other, and a mistake
 in the beta can touch the same data. Beta sends no scheduled email, keeps its own sign-in, and
-asks search engines not to list its pages. See also
+asks search engines not to list its pages. We do not promise to keep, back up or restore your
+data on either site; see the [terms](terms.md#5-it-is-offered-as-it-is) and
 [the company-wide note on services in alpha or beta](../privacy.md#18-services-in-alpha-or-beta).
 Download your data from Settings if you would be sorry to lose it.
 
