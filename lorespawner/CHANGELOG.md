@@ -27,6 +27,27 @@ submodule pointer bumped in the app before it reaches the site.
 
 ---
 
+## [lorespawner-privacy-2026.2] — 2026-11-24
+
+**Effective date:** 24 November 2026
+
+- Corrected "one processor" and "none of your data leaves the EU": the AI at the fire is
+  Anthropic's Claude, reached through Kaperkunde's Token Center, and what it is sent goes to the
+  United States
+
+---
+
+## [lorespawner-subprocessors-2026.2] — 2026-11-24
+
+**Effective date:** 24 November 2026
+
+- Corrected the statement that no model provider is in use: Anthropic (Claude) is Lore
+  Spawner's only model provider, named with what it receives, where it is processed and the
+  safeguard used, as in AJ's entry; every call goes through Kaperkunde's own Token Center, which
+  is not a subprocessor
+
+---
+
 ## [lorespawner-privacy-2026.1] — 2026-09-21
 
 **Effective date:** 21 September 2026

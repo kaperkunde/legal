@@ -47,8 +47,8 @@ person reads it. That address is also where support requests go.
 - **Whether you are here.** A single timestamp of when you last did something in the app, so we
   can stay quiet rather than mail you about something you are watching happen. It is
   overwritten, not accumulated: there is no history of your visits.
-- **What you have said to the AI.** If this campfire has a language model and you talk to it
-  about one of your worlds, the conversation is kept so you can come back to it. Unlike an
+- **What you have said to the AI.** If you talk to the AI about
+  one of your worlds, the conversation is kept so you can come back to it. Unlike an
   event, it was never written to be read by anybody else, and nobody else can: it is yours and
   the model's.
 - **What the AI has cost.** A line per call saying who it was for, which world it was about,
@@ -107,10 +107,12 @@ Everything else goes when the account does.
 **We do not sell your data, share it, rent it, give it away, or hand it to advertisers, data
 brokers or AI training sets.**
 
-**One processor.** Lore Spawner runs on servers rented from [Hetzner](https://www.hetzner.com),
+**Two processors.** Lore Spawner runs on servers rented from [Hetzner](https://www.hetzner.com),
 in the European Union. Everything else the service is made of — the database, the API, the mail
 server — is Kaperkunde's own software running on those servers. No analytics service, no content
-delivery network, no mail provider, and none of your data leaves the EU.
+delivery network, no mail provider. The one thing that leaves the EU is what the AI at the fire
+is sent, which goes to [Anthropic](https://www.anthropic.com) in the United States through
+Kaperkunde's Token Center (see below).
 
 **Push services, if you turn notifications on.** A notification to a browser has to travel
 through whoever made that browser — Google, Apple or Mozilla. They relay a message encrypted to
@@ -130,13 +132,11 @@ we will, and we will tell you unless we are forbidden to.
 
 There are two different AIs here and they hold different things.
 
-**The AI at the fire** is a language model this campfire can be pointed at, which can play or
-tell a character you have handed to it and can talk with you about a world. It is off unless
-the campfire has been given a model to use. When it runs, what it is sent is the part of the
-world it is acting in — the events, the places, the characters, and what you have said to it —
-and that goes to whoever serves that model. Where that is not a model Kaperkunde runs itself,
-that provider is a processor and is named in the
-[subprocessor list](subprocessors.md), which is the honest place to look before you turn it on.
+**The AI at the fire** is a language model, Anthropic's Claude, which can play or tell a
+character you have handed to it and can talk with you about a world. What it is sent is the part
+of the world it is acting in — the events, the places, the characters, and what you have said to
+it. That goes to Anthropic through Kaperkunde's own Token Center, which keeps a record of what
+each call cost. Anthropic is a processor and is named in the [subprocessor list](subprocessors.md).
 
 **An assistant you connect yourself** is the other: an outside app you allow over OAuth, which
 then acts as you within the limits you set when you allow it. It reads what you can read, and it
