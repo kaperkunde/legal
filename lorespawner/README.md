@@ -3,7 +3,7 @@
 Legal documentation for **Lore Spawner**, the collaborative storytelling app operated by
 Kaperkunde.
 
-**Effective date: 21 September 2026** · [Repository overview](../README.md)
+**Effective date: 24 November 2026** · [Repository overview](../README.md)
 
 ---
 
@@ -12,11 +12,11 @@ Kaperkunde.
 | Document | Description |
 |----------|-------------|
 | [Privacy Notice](privacy.md) | What Lore Spawner holds, why, how long, and who else ever sees it |
-| [Terms of Use](terms.md) | The alpha terms: who may be here, what stays yours, what is not acceptable, and that it is offered as it is |
-| [Subprocessor List](subprocessors.md) | Hetzner for the servers, and the browser push services as relays of ciphertext |
+| [Terms of Use](terms.md) | The alpha terms: who may be here, what stays yours, what is not acceptable, that it is offered as it is, tokens and how unused bought ones are refunded |
+| [Subprocessor List](subprocessors.md) | Hetzner for the servers, Anthropic for the model, Stripe for payments, and the browser push services as relays of ciphertext |
 | [Privacy Policy](../privacy.md) | The company-wide policy: rights, transfers, security, and the promises that hold across everything Kaperkunde runs |
 
-Lore Spawner is in closed alpha and free. There is **no acceptance gate** — these documents are
+Lore Spawner is in closed alpha and free, apart from the tokens the AI uses. There is **no acceptance gate** — these documents are
 published rather than agreed to, and signing up is what accepts them.
 
 ---
@@ -41,9 +41,10 @@ published rather than agreed to, and signing up is what accepts them.
 2. [What you make stays yours](terms.md#2-what-you-make-stays-yours)
 3. [What is not acceptable](terms.md#3-what-is-not-acceptable)
 4. [It is offered as it is](terms.md#4-it-is-offered-as-it-is)
-5. [Ending it](terms.md#5-ending-it)
-6. [Changes](terms.md#6-changes)
-7. [Getting in touch](terms.md#7-getting-in-touch)
+5. [Tokens](terms.md#5-tokens)
+6. [Ending it](terms.md#6-ending-it)
+7. [Changes](terms.md#7-changes)
+8. [Getting in touch](terms.md#8-getting-in-touch)
 
 ---
 

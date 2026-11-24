@@ -1,6 +1,6 @@
 # Lore Spawner Subprocessor List
 
-**Effective date:** 21 September 2026  
+**Effective date:** 24 November 2026  
 **Provider:** Kaperkunde  
 **KVK number:** 42061326  
 **Address:** Prof. E.M. Meijerslaan 1, Amstelveen, The Netherlands  
@@ -13,7 +13,7 @@ Lore Spawner's own.
 
 It is a short list on purpose. Everything the service is made of — the database, the GraphQL
 API, the mail server, the app itself — is Kaperkunde's own software, running on servers
-Kaperkunde rents. The one thing it hands to someone else is the language model.
+Kaperkunde rents. It hands two things to someone else: the language model, and taking payment for tokens.
 
 ---
 
@@ -23,6 +23,7 @@ Kaperkunde rents. The one thing it hands to someone else is the language model.
 |---|---|---|
 | **Hetzner Online GmbH** | The servers Lore Spawner runs on: the application, the database, and outbound mail | European Union. The only processor with access to stored data. |
 | **Anthropic, PBC** | The AI model (Claude) behind the AI at the fire, which plays or tells a character and answers in a chat about a world | Story text and prompts, for generation: the part of the world the AI is acting in (events, places, characters, notes) and whatever the player has said to it. United States, through Kaperkunde's Token Center. Under Anthropic's commercial terms, what it receives through its API is not used to train its models. A transfer outside the EEA under the safeguards in §6 of the [Privacy Policy](../privacy.md#6-international-transfers). |
+| **Stripe** | Taking payment when a player buys tokens, and returning it when unused tokens are refunded | The payment details a player enters, which go to Stripe and not to us, and the amount, the purchase and the refund. Stripe's own location and safeguards are as in [§5.1 of the Privacy Policy](../privacy.md#51-when-kaperkunde-is-controller). |
 | **Google (FCM)** | Relaying push notifications to Chrome and Android browsers, where a player has turned them on | Relay only. The payload is encrypted to keys only that browser holds, so the service cannot read what it passes on. |
 | **Apple (APNs)** | Relaying push notifications to Safari, where a player has turned them on | Relay only, on the same terms. |
 | **Mozilla (autopush)** | Relaying push notifications to Firefox, where a player has turned them on | Relay only, on the same terms. |
