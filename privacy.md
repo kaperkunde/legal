@@ -1,6 +1,6 @@
 # Kaperkunde Privacy Policy
 
-**Effective date:** 23 November 2026  
+**Effective date:** 24 November 2026  
 **Controller:** Kaperkunde  
 **KVK number:** 42061326  
 **VAT number:** NL005465494B06  
@@ -349,7 +349,7 @@ No online service can guarantee absolute security. You remain responsible for se
 
 ### 8.1 Kaperkunde websites and applications
 
-Our websites and applications use only cookies that are strictly necessary to provide what you asked for — for example, keeping you signed in to your account. We do not use analytics, advertising, or tracking cookies, so no cookie consent banner is needed anywhere on our own properties. If that ever changes, we will describe the cookies in a notice on those sites and ask for consent where required before any non-essential cookie is placed.
+Our websites and applications use only first-party cookies that make something you asked for work — for example, keeping you signed in to your account, or remembering an invitation link you opened until you have signed up. Each product's notice names its cookies. We do not use analytics, advertising, or tracking cookies, so no cookie consent banner is needed anywhere on our own properties. If that ever changes, we will describe the cookies in a notice on those sites and ask for consent where required before any non-essential cookie is placed.
 
 **AJ** keeps a host signed in with a session cookie, and recognises a guest's phone with a
 signed cookie and a random id in the browser's storage, which also holds the name the guest last
@@ -445,6 +445,18 @@ We may update this Privacy Policy from time to time. Material changes will be co
 
 ## 17. Online dispute resolution (consumers)
 
-The European Commission provides an online dispute-resolution platform at [https://ec.europa.eu/consumers/odr](https://ec.europa.eu/consumers/odr).
+The European Commission's online dispute-resolution platform closed in July 2025, so there is no longer a platform to link to. If you are a consumer with a complaint, write to **legal@kaperkun.de** first and a person will look at it; consumer mandatory rights remain unaffected, and you may always go to the courts or to a dispute-resolution body in your own country.
 
-Kaperkunde is not obliged to participate in alternative dispute-resolution proceedings before a consumer arbitration body, but consumer mandatory rights remain unaffected.
+Kaperkunde is not obliged to participate in alternative dispute-resolution proceedings before a consumer arbitration body.
+
+---
+
+## 18. Services in alpha or beta
+
+Some Kaperkunde services are offered before they are finished, and say so. Such a service is unfinished software: it can have bugs, be unavailable, change without notice, and lose data, and it is offered as it is, to the extent the law allows. Where a product has a way to take your data out, use it for anything you would be sorry to lose. A product may also run a beta version beside its main site; the product's own notice says whether the beta shares accounts and data with the main site. This section does not take away any right this Policy or the law gives you.
+
+---
+
+## 19. Reports about content
+
+How to report something on a Kaperkunde service, who authorities write to, and what you are told when we act are in the [Notice-and-Action Policy](notice-and-action.md).

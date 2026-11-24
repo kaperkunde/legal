@@ -8,11 +8,12 @@ This repository is the source of truth for terms, privacy notices, and related p
 
 ## Current documents
 
-**Effective date: 23 November 2026**
+**Effective date: 24 November 2026**
 
 | Document | Description |
 |----------|-------------|
 | [Privacy Policy](privacy.md) | How Kaperkunde handles personal data on its websites, for [plek.je](https://plek.je) hosting customers, and in its processor role for hosted sites |
+| [Notice-and-Action Policy](notice-and-action.md) | Shared across products: who authorities and members contact, how to report content, and what you are told when we act |
 | [Hosting documentation](hosting/README.md) | Terms of Service, Acceptable Use Policy, and Subprocessor List for [plek.je](https://plek.je) managed Ghost hosting |
 | [Lore Spawner documentation](lorespawner/README.md) | Privacy Notice, Terms of Use, and Subprocessor List for the Lore Spawner collaborative storytelling app |
 | [Study Guild documentation](studyguild/README.md) | Privacy Notice, Terms of Use, and Subprocessor List for the Study Guild shared flashcard community |
@@ -39,6 +40,8 @@ This repository is the source of truth for terms, privacy notices, and related p
 15. [Changes to this Policy](privacy.md#15-changes-to-this-policy)
 16. [Contact](privacy.md#16-contact)
 17. [Online dispute resolution (consumers)](privacy.md#17-online-dispute-resolution-consumers)
+18. [Services in alpha or beta](privacy.md#18-services-in-alpha-or-beta)
+19. [Reports about content](privacy.md#19-reports-about-content)
 
 ### Hosting documents
 

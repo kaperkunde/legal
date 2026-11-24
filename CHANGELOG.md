@@ -7,6 +7,7 @@ Documents are versioned independently using git tags:
 | Tag pattern | Document |
 |-------------|----------|
 | `privacy-{year}.{revision}` | [privacy.md](privacy.md) |
+| `notice-and-action-{year}.{revision}` | [notice-and-action.md](notice-and-action.md) |
 
 Product-specific documents have changelogs of their own:
 [hosting/CHANGELOG.md](hosting/CHANGELOG.md) (`hosting-tos-`, `hosting-aup-`, `hosting-subprocessors-`)
@@ -26,6 +27,28 @@ git show privacy-2026.2:privacy.md
 On GitHub: `https://github.com/kaperkunde/legal/releases/tag/<tag-name>`
 
 When publishing a new version, commit the change, create the tag, push both, and add an entry below.
+
+---
+
+## [notice-and-action-2026.1] — 2026-11-23
+
+**Effective date:** 23 November 2026
+
+- New shared document: the single point of contact for authorities and members (DSA Arts. 11
+  and 12), what a report should contain (Art. 16), and what a member is told when we remove or
+  restrict something (Art. 17), for every product that publishes members' content
+
+---
+
+## [privacy-2026.13] — 2026-11-24
+
+**Effective date:** 24 November 2026
+
+- §8.1: cookies are described as first-party cookies that make something you asked for work,
+  including remembering an invitation link, rather than "strictly necessary"; products name theirs
+- §17: the EU online dispute-resolution platform closed in July 2025, so the link is removed
+- New §18: services in alpha or beta, and betas that share accounts and data
+- New §19: pointer to the Notice-and-Action Policy
 
 ---
 
