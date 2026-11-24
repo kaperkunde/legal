@@ -35,6 +35,8 @@ Guild picks the new version up as a dependency update (Renovate), so nothing els
   days, in Germany), as a fact and not a promise to restore; deleted data can remain in them
   for about that long
 - Beta paragraph: no promise to keep, back up or restore data on either site
+- Logs described as they are: application logs only (errors and job outcomes), no access log,
+  none sent elsewhere, limited by size and gone at the next deploy, no fixed period
 
 ---
 

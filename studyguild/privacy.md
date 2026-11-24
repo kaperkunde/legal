@@ -116,8 +116,10 @@ yours or anybody else's, and nothing you need to keep private.
 - **Assistants you connect.** How the app described itself when it asked for access, what you
   allowed it to do and when, and the access tokens it holds, stored hashed, so a copy of our
   database would not let anyone act as you.
-- **Ordinary server logs.** Requests to the site, with IP address and timestamp, kept briefly
-  so we can fix things that break and stop people abusing the service.
+- **Application logs.** What the app writes while it runs: errors and the outcome of its
+  scheduled jobs, so we can fix things that break. They can name a member by internal id and, in
+  a mail error, an email address. There is no access log of requests, and the logs are not sent
+  to any other service.
 
 That is the whole list. There is no analytics, no advertising, no tracking pixel and no
 profiling of you anywhere in Study Guild.
@@ -195,9 +197,8 @@ shows which are on, and what time they come at, in your own zone. We send no mar
 | Who joined through whose invite link | As long as both accounts |
 | An assistant's access | Until you disconnect it, reset your password or prove your address for the first time, or while your account is suspended. Its access tokens last an hour and its refresh tokens sixty days; disconnecting stops it at once, whatever it still holds |
 | Moderation records (who acted, on what, why) | Two years |
-| Server logs | Thirty days |
+| Application logs | Limited by size (about 30 MB per container, oldest lines overwritten first) and gone when the app is next deployed; no fixed period |
 
-[//]: # "TODO(owner): confirm log rotation of 30 days is configured for the app, the proxy and the mail server (DEPLOY.md in studyguild); and choose the card-report retention in the table above."
 
 Everything else goes when the account does.
 
