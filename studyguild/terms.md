@@ -60,7 +60,7 @@ if you leave the guild or close your account, credited then to "a former member"
 goes for a guild you found: founding one gives you no more say over it than anyone else has,
 and it stays when you go.
 
-**Improving is not rewriting.** Any member may improve a card's wording. Each edit is a new
+**Improving is not rewriting.** Members of the guild who have studied on 7 days may improve a card's wording, and its author always may. Each edit is a new
 version, credited to whoever wrote it; learners who already hold the card keep the wording they
 learned, and the original is never lost. An edit that changes what the card teaches — a
 different fact, not a better phrasing — is refused, and only the card's author may change its
@@ -108,7 +108,7 @@ guild, limit what an account can do, or suspend or close it, when these rules or
 for it. Each time, the member concerned and the person who reported it are told what we did,
 the facts and the rule behind it, and whether anything automatic played a part, as the
 notice-and-action policy sets out. When a guild is removed, members' stacks in it count as
-left: they can rejoin within the usual 30 days if it is restored. If you think we got it wrong, say so in reply, and a person
+left: they are purged after the usual 30 days, as for a guild a member left. If you think we got it wrong, say so in reply, and a person
 looks again.
 
 Some things happen without a person: the duplicate check turns away a card that asks what an
