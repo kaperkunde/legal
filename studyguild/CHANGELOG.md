@@ -27,6 +27,26 @@ Guild picks the new version up as a dependency update (Renovate), so nothing els
 
 ---
 
+## [studyguild-privacy-2026.4] — 2026-11-25
+
+**Effective date:** 25 November 2026
+
+- Embeddings: the processor is named as MongoDB, Inc. (Voyage AI embeddings), used through its
+  EU endpoint, so the text is processed in the EU; the US-parent transfer rests on its DPA
+  (standard contractual clauses and the EU-US Data Privacy Framework); card text is not used
+  for training
+
+---
+
+## [studyguild-subprocessors-2026.4] — 2026-11-25
+
+**Effective date:** 25 November 2026
+
+- Voyage AI Innovations, Inc. replaced by MongoDB, Inc. (Voyage AI embeddings), EU endpoint,
+  DPA with SCCs and the DPF, training switched off
+
+---
+
 ## [studyguild-privacy-2026.3] — 2026-11-24
 
 **Effective date:** 24 November 2026
