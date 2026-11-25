@@ -1,12 +1,12 @@
 # Lore Spawner Terms of Use
 
-**Effective date:** 21 September 2026  
+**Effective date:** 24 November 2026  
 **Provider:** Kaperkunde  
 **KVK number:** 42061326  
 **Address:** Prof. E.M. Meijerslaan 1, Amstelveen, The Netherlands  
 **Support and legal notices:** privacy@kaperkun.de  
 
-Lore Spawner is unfinished software in closed testing, offered free and as it is. These are the
+Lore Spawner is unfinished software in closed testing, offered as it is, and free apart from the tokens the AI uses. These are the
 terms you accept by signing up, and they are short because there is not much to say yet.
 
 The [Lore Spawner Privacy Notice](privacy.md) is the other half, and says what is held and why.
@@ -56,12 +56,37 @@ it. There is no warranty of any kind and no promise of availability. To the exte
 allows, Kaperkunde is not liable for what you lose by relying on it — so export anything you
 would be sorry to lose, which the app can do for every world you own, at any time.
 
-Lore Spawner is free during the alpha. If that ever changes, nobody is charged without being
-asked first.
+Lore Spawner is free during the alpha, apart from the tokens the AI uses (§5). Nobody is
+charged without seeing the price first.
 
 ---
 
-## 5. Ending it
+## 5. Tokens
+
+The AI at the fire costs money to run, and is paid for in tokens. Tokens are held for you by
+Kaperkunde's Token Center (tokens.kaperkun.de), the service that runs the AI models for
+Kaperkunde's apps, and every call the AI makes for you is taken from your balance.
+
+- You can buy tokens on the tokens page. The price is shown before you pay, and the payment is
+  taken by Stripe on Kaperkunde's behalf. Bought tokens do not expire while Lore Spawner runs.
+- Tokens are a prepaid balance for AI use in Kaperkunde's apps. They are not money, cannot be
+  transferred to another person, and have no cash value, except as below.
+- **If you change your mind:** unused bought tokens can be refunded, in full or in part, within
+  90 days of the purchase. Use the refund button on the tokens page where it offers one, or ask
+  **support@kaperkun.de**.
+  - The money goes back to the card or other payment method that paid.
+  - The refund is the share of what you paid, VAT included, that matches the unused tokens from
+    that purchase, rounded down to the cent.
+  - Tokens you spend come first from your oldest purchase, so the unused ones are from your
+    newest purchases.
+  - Tokens that were not bought are not refundable.
+  - If Lore Spawner shuts down, unused bought tokens are refunded too.
+- When your balance runs out, the AI stops until there is more. The rest of Lore Spawner keeps
+  working.
+
+---
+
+## 6. Ending it
 
 You can stop at any time: export your worlds and ask us to delete the account. We can close an
 account that is breaking the rules above, and we will say why. If Lore Spawner itself shuts
@@ -69,14 +94,14 @@ down, everyone signed up hears about it with enough notice to take their work wi
 
 ---
 
-## 6. Changes
+## 7. Changes
 
 These terms will grow before Lore Spawner opens to the public. If anything changes in a way that
 matters to you, we will tell you rather than quietly editing the page.
 
 ---
 
-## 7. Getting in touch
+## 8. Getting in touch
 
 Support, questions about these terms, and anything about your data all go to
 **privacy@kaperkun.de**. A person reads it, and you hear back.

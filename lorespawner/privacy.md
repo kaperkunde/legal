@@ -1,6 +1,6 @@
 # Lore Spawner Privacy Notice
 
-**Effective date:** 21 September 2026  
+**Effective date:** 24 November 2026  
 **Controller:** Kaperkunde  
 **KVK number:** 42061326  
 **Address:** Prof. E.M. Meijerslaan 1, Amstelveen, The Netherlands  
@@ -54,6 +54,9 @@ person reads it. That address is also where support requests go.
 - **What the AI has cost.** A line per call saying who it was for, which world it was about,
   what kind of work it was, and how many tokens it took. It is a meter, so that a runaway agent
   is visible and can be capped; it holds nothing of what was written.
+- **Tokens.** Your token balance, held by Kaperkunde's Token Center, and a record of each
+  purchase and refund: when, the amount and the number of tokens. Your card details are never
+  ours: they go to Stripe, which takes the payment.
 - **Ordinary server logs.** Requests to the site, with IP address and timestamp, kept briefly so
   we can fix things that break and stop people abusing the service.
 
@@ -107,12 +110,13 @@ Everything else goes when the account does.
 **We do not sell your data, share it, rent it, give it away, or hand it to advertisers, data
 brokers or AI training sets.**
 
-**Two processors.** Lore Spawner runs on servers rented from [Hetzner](https://www.hetzner.com),
+**Three processors.** Lore Spawner runs on servers rented from [Hetzner](https://www.hetzner.com),
 in the European Union. Everything else the service is made of — the database, the API, the mail
 server — is Kaperkunde's own software running on those servers. No analytics service, no content
 delivery network, no mail provider. The one thing that leaves the EU is what the AI at the fire
 is sent, which goes to [Anthropic](https://www.anthropic.com) in the United States through
-Kaperkunde's Token Center (see below).
+Kaperkunde's Token Center (see below). When you buy tokens, [Stripe](https://stripe.com) takes the
+payment and returns it if you ask for a refund.
 
 **Push services, if you turn notifications on.** A notification to a browser has to travel
 through whoever made that browser — Google, Apple or Mozilla. They relay a message encrypted to

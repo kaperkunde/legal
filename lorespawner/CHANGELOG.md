@@ -27,6 +27,44 @@ submodule pointer bumped in the app before it reaches the site.
 
 ---
 
+## [lorespawner-terms-2026.2] — 2026-11-24
+
+To be tagged on the merge commit of this change.
+
+**Effective date:** 24 November 2026
+
+- New §5, Tokens: the AI is paid for in tokens held by the Token Center, bought on the tokens
+  page and paid through Stripe, which do not expire while Lore Spawner runs and have no cash
+  value except as below; (later sections renumbered, §4 now says the alpha is free apart from
+  tokens)
+- Unused bought tokens can be refunded in full or in part within 90 days of the purchase, on
+  the tokens page or by asking support@kaperkun.de, to the payment method that paid, as the share
+  of what you paid (VAT included) that matches the unused tokens, rounded down to the cent;
+  tokens are spent from the oldest purchase first; tokens not bought are not refundable; unused
+  bought tokens are refunded if Lore Spawner shuts down
+- Same token terms as AJ §7. This change only favours users: nothing is taken away, a refund
+  right is added, so no notice period applies and it takes effect at once
+
+---
+
+## [lorespawner-privacy-2026.3] — 2026-11-24
+
+**Effective date:** 24 November 2026
+
+- Names Stripe, which takes payment when a player buys tokens, and says what is kept about a
+  purchase (balance, and when, how much and how many tokens); "two processors" is now three.
+  Only adds information; nothing a player could rely on is taken away
+
+---
+
+## [lorespawner-subprocessors-2026.3] — 2026-11-24
+
+**Effective date:** 24 November 2026
+
+- Added Stripe, for taking and returning payment for tokens, as in AJ's list
+
+---
+
 ## [lorespawner-privacy-2026.2] — 2026-11-24
 
 **Effective date:** 24 November 2026
