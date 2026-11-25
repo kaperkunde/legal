@@ -1,6 +1,6 @@
 # Study Guild Subprocessor List
 
-**Effective date:** 24 November 2026  
+**Effective date:** 25 November 2026  
 **Provider:** Kaperkunde  
 **KVK number:** 42061326  
 **VAT number:** NL005465494B06  
@@ -25,18 +25,12 @@ each question once.
 | Subprocessor | Purpose | What it receives | Location / notes |
 |---|---|---|---|
 | **Hetzner Online GmbH** | The servers Study Guild runs on: the application, the database, card pictures, outbound mail, and automatic server snapshots (seven daily, kept about seven days) | Everything stored, as the host of any server does | Falkenstein, Germany (European Union). The only processor with access to stored data. |
-| **Voyage AI Innovations, Inc.** | Text embeddings — the list of numbers that stands for a text's meaning — which the duplicate check, the "a guild like this exists" check, the edit-drift check and card search compare | The text of a card being added or edited (question and answer, formatting removed, whether or not the card is then saved), the name of a guild being founded, and the search queries an assistant runs. Never a member's name, email or account, and never a picture. | United States. Processed under Voyage AI's [Data Processing Agreement](https://www.voyageai.com/dpa), and a transfer outside the EEA under the safeguards in [§6 of the Privacy Policy](../privacy.md#6-international-transfers). Kaperkunde has opted out of Voyage AI's use of what it receives to train its models, so each text is deleted as soon as its numbers have been computed. |
+| **MongoDB, Inc.** (Voyage AI embeddings) | Text embeddings — the list of numbers that stands for a text's meaning — which the duplicate check, the "a guild like this exists" check, the edit-drift check and card search compare | The text of a card being added or edited (question and answer, formatting removed, whether or not the card is then saved), the name of a guild being founded, and the search queries an assistant runs. Never a member's name, email or account, and never a picture. | Processed in the European Union, on MongoDB's EU endpoint. MongoDB, Inc. is a US company, so this is a transfer outside the EEA under its [Data Processing Agreement](https://www.mongodb.com/legal/data-processing-agreement), which includes standard contractual clauses and the EU-US Data Privacy Framework (see [§6 of the Privacy Policy](../privacy.md#6-international-transfers)). Card text is not used for training. |
 
-[//]: # "TODO(owner): Voyage AI: confirm the contracting entity, that the DPA is accepted, whether the US transfer relies on the Data Privacy Framework or on standard contractual clauses (name it in the Voyage row), and that the training opt-out is on."
-
-Voyage AI is told nothing about who wrote a text or which guild it belongs to; it receives the
-words and returns the numbers, and those numbers stay in Kaperkunde's own database.
-
-Voyage AI's [terms of service](https://www.voyageai.com/legal/terms-of-service) (§3) would let
-it keep what a customer sends and use it to train its own models, unless the customer opts out.
-Kaperkunde has opted out for the account Study Guild uses, which under those terms means Voyage
-AI deletes each text immediately after processing it. Nothing Study Guild sends is used to
-train anybody's model — the company-wide promise in
+MongoDB is told nothing about who wrote a text or which guild it belongs to; it receives the
+words and returns the numbers, and those numbers stay in Kaperkunde's own database. Training on
+what Study Guild sends is switched off, so nothing Study Guild sends is used to train anybody's
+model — the company-wide promise in
 [§4 of the Privacy Policy](../privacy.md#4-what-we-do-not-do) holds here too.
 
 ---

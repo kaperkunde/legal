@@ -1,6 +1,6 @@
 # Study Guild Privacy Notice
 
-**Effective date:** 24 November 2026  
+**Effective date:** 25 November 2026  
 **Controller:** Kaperkunde  
 **KVK number:** 42061326  
 **VAT number:** NL005465494B06  
@@ -229,16 +229,15 @@ restore anything for you.
 is the capital of France?" from "Which city is France's capital?" takes an understanding of
 meaning that we buy in. Whenever you add or edit a card, whether or not it is then saved, its
 text (the question and the answer, with formatting removed) is sent to
-[Voyage AI](https://www.voyageai.com), which turns it into a list of numbers we keep and
-compare. The same goes for a guild's name when it is founded and for a search an assistant
-runs on your behalf. Nothing about you goes with it: no name, no email, no account, and never
-a picture. Voyage AI is in the United States, so this is a transfer outside the EEA under the
-safeguards [§6 of the Privacy Policy](../privacy.md#6-international-transfers) describes, and
-it processes the text under its data processing agreement. Its terms would let it keep what it
-receives to train its own models; we have opted out of that, so it deletes each text as soon as
-it has computed the numbers.
-
-[//]: # "TODO(owner): verify Voyage AI's current contracting entity, that its DPA is accepted for the production account, whether the transfer rests on the EU-US Data Privacy Framework or on standard contractual clauses (then name it here), and that the training opt-out is on (billed account) before real cards."
+[Voyage AI](https://www.voyageai.com) embeddings, a service of MongoDB, Inc., which turns it into
+a list of numbers we keep and compare. The same goes for a guild's name when it is founded and
+for a search an assistant runs on your behalf. Nothing about you goes with it: no name, no
+email, no account, and never a picture. We use MongoDB's EU endpoint, so the text is processed
+in the European Union. MongoDB, Inc. is a US company, so it is still a transfer outside the EEA
+for data protection purposes, covered by its data processing agreement, which includes
+standard contractual clauses and the EU-US Data Privacy Framework (see
+[§6 of the Privacy Policy](../privacy.md#6-international-transfers)). Card text is not used to
+train anybody's model.
 
 **Assistants you connect.** An assistant you allow into your account acts as you, within the
 limits you set; see the next section.
