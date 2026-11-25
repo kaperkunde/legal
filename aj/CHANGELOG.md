@@ -28,7 +28,8 @@ publishes, so a published change reaches the site when AJ's dependency on it mov
 
 ## [aj-terms-2026.2] — 2026-11-24
 
-To be tagged on the merge commit of this change.
+Tagged on the merge commit of PR #9 (bb03155), together with the other tags of that PR; the package
+published before the tags existed is republished so its manifest names them.
 
 **Effective date:** 24 November 2026
 
